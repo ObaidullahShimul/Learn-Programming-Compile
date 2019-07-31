@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Python_MainActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_marginTop="20dp"
+                    android:gravity="center_horizontal"
+                    android:weightSum="2"
+                    android:layout_width="match_parent"
+                    android:layout_height="120dp">
+
+                    <at.markushi.ui.CircleButton
+                        android:id="@+id/pythonTutorialBtnId"
+                        android:scaleType="fitXY"
+                        android:background="@drawable/tutorial_icon"
+                        android:layout_marginEnd="40dp"
+                        android:layout_width="120dp"
+                        android:layout_height="120dp"
+                        app:cb_color="#04f5f0f5"
+                        app:cb_pressedRingWidth="2dp"
+                        android:layout_marginBottom="20dp"
+                        />
+
+
+                    <at.markushi.ui.CircleButton
+                        android:id="@+id/pythonProgramBtnId"
+                        android:background="@drawable/program"
+                        android:scaleType="fitXY"
+                        android:layout_marginEnd="10dp"
+                        android:layout_width="120dp"
+                        android:layout_height="120dp"
+                        app:cb_color="#04f5f0f5"
+                        app:cb_pressedRingWidth="2dp"
+                        android:layout_marginBottom="20dp"
+                        />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_weight="3"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_marginLeft="25dp"
+                        android:textAlignment="center"
+                        android:textColor="#000"
+                        android:text="Tutorials"
+                        android:layout_weight="1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                    <TextView
+                        android:textColor="#000"
+                        android:layout_marginRight="35dp"
+                        android:layout_weight="1"
+                        android:textAlignment="center"
+                        android:text="Program"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+
+                </LinearLayout>
+
+
+
+
+
+                <LinearLayout
+                    android:layout_marginTop="20dp"
+                    android:gravity="center_horizontal"
+                    android:weightSum="2"
+                    android:layout_width="match_parent"
+                    android:layout_height="120dp">
+
+                    <at.markushi.ui.CircleButton
+                        android:id="@+id/pythonInterviewBtnId"
+                        android:scaleType="fitXY"
+                        android:background="@drawable/interview"
+                        android:layout_marginEnd="40dp"
+                        android:layout_width="120dp"
+                        android:layout_height="120dp"
+                        app:cb_color="#04f5f0f5"
+                        app:cb_pressedRingWidth="2dp"
+                        android:layout_marginBottom="20dp"
+                        />
+
+
+                    <at.markushi.ui.CircleButton
+                        android:id="@+id/pythonCompilerBtnId"
+                        android:background="@drawable/com"
+                        android:scaleType="fitXY"
+                        android:layout_marginEnd="10dp"
+                        android:layout_width="120dp"
+                        android:layout_height="120dp"
+                        app:cb_color="#04f5f0f5"
+                        app:cb_pressedRingWidth="2dp"
+                        android:layout_marginBottom="20dp"
+                        />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_weight="3"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_marginLeft="15dp"
+                        android:textAlignment="center"
+                        android:textColor="#000"
+                        android:text="Interview Question"
+                        android:layout_weight="1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                    <TextView
+                        android:textColor="#000"
+                        android:layout_marginRight="35dp"
+                        android:layout_weight="1"
+                        android:textAlignment="center"
+                        android:text="Compiler here"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_marginTop="20dp"
+                    android:gravity="center_horizontal"
+                    android:weightSum="2"
+                    android:layout_width="match_parent"
+                    android:layout_height="120dp">
+
+                    <at.markushi.ui.CircleButton
+                        android:id="@+id/pythonMcqBtnId"
+                        android:scaleType="fitXY"
+                        android:background="@drawable/mcq"
+                        android:layout_marginEnd="40dp"
+                        android:layout_width="120dp"
+                        android:layout_height="120dp"
+                        app:cb_color="#04f5f0f5"
+                        app:cb_pressedRingWidth="2dp"
+                        android:layout_marginBottom="20dp"
+                        />
+
+
+                    <at.markushi.ui.CircleButton
+                        android:id="@+id/pythonQuizBtnId"
+                        android:background="@drawable/quiz2"
+                        android:scaleType="fitXY"
+                        android:layout_marginEnd="10dp"
+                        android:layout_width="120dp"
+                        android:layout_height="120dp"
+                        app:cb_color="#04f5f0f5"
+                        app:cb_pressedRingWidth="2dp"
+                        android:layout_marginBottom="20dp"
+                        />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_weight="3"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_marginLeft="10dp"
+                        android:textAlignment="center"
+                        android:textColor="#000"
+                        android:text="MCQ Question"
+                        android:layout_weight="1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                    <TextView
+                        android:textColor="#000"
+                        android:layout_marginRight="45dp"
+                        android:layout_weight="1"
+                        android:textAlignment="center"
+                        android:text="Quiz"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </ScrollView>
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

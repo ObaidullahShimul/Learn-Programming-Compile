@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".ProfileInfo">
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_marginTop="10dp"
+            android:contentDescription="@string/ltitle"
+            android:scaleType="fitXY"
+            android:src="@drawable/profile_img"
+            android:id="@+id/profileImgId"
+            android:layout_width="90dp"
+            android:layout_height="90dp" />
+
+
+        <TextView
+            android:textColor="@color/colorPrimary"
+            android:text="Hello Hello"
+            android:layout_marginTop="30dp"
+            android:textSize="16sp"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@+id/profileImgId"
+            android:layout_alignParentRight="true"
+            android:id="@+id/userEmailShowId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_marginTop="40dp"
+        android:layout_marginRight="30dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ProgressBar
+            android:id="@+id/progressId"
+            android:progressBackgroundTint="@color/colorGray"
+            android:progressTint="@color/colorPrimary"
+            android:progress="3"
+            style="@android:style/Widget.ProgressBar.Horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/learningProgressTextId"
+            android:textColor="#f003530f"
+            android:textAlignment="center"
+            android:text="Your Learning Progress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+
+
+
+        <LinearLayout
+            android:layout_marginTop="50dp"
+            android:weightSum="10"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:textSize="16sp"
+                android:layout_weight="7"
+                android:id="@+id/cQuizLastMarks"
+                android:textColor="#f003530f"
+                android:text="Last Quiz Marks in C"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:gravity="center"
+                android:textColor="#ef040f"
+                android:textStyle="bold"
+                android:id="@+id/cMarksId"
+                android:textSize="22sp"
+                android:text="0"
+                android:layout_weight="3"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:weightSum="10"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:textSize="16sp"
+            android:layout_weight="7"
+            android:id="@+id/javaQuizLastMarks"
+            android:textColor="#f003530f"
+            android:text="Last Quiz Marks in JAVA"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:gravity="center"
+            android:textColor="#ef040f"
+            android:textStyle="bold"
+            android:id="@+id/jMarksId"
+            android:textSize="22sp"
+            android:text="0"
+            android:layout_weight="3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:weightSum="10"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:textSize="16sp"
+            android:layout_weight="7"
+            android:id="@+id/pythonQuizLastMarks"
+            android:textColor="#f003530f"
+            android:text="Last Quiz Marks in PYTHON"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:gravity="center"
+            android:textColor="#ef040f"
+            android:textStyle="bold"
+            android:id="@+id/pMarksId"
+            android:textSize="22sp"
+            android:text="0"
+            android:layout_weight="3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+
+    <Button
+        android:layout_gravity="center"
+        android:id="@+id/profileLogOutbtnId"
+        android:layout_marginTop="50dp"
+        android:backgroundTint="#f76032"
+        android:background="@drawable/input_outline"
+        android:text="Log Out"
+        android:textColor="#fff"
+        android:textAllCaps="false"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+</LinearLayout>

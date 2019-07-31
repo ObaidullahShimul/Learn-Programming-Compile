@@ -1,0 +1,2567 @@
+
+<resources>
+    
+    <string name="ltitle">Learn Programming</string>
+
+
+    <string name="aboutjava" formatted="false">Java is a high-level programming language and computing platform
+        first released by Sun Microsystems in 1995. There are lots of applications and websites that
+        will not work unless you have Java installed, and more are created every day. Java is fast, secure,
+        and reliable. From laptops to datacenters, game consoles to scientific supercomputers, cell phones
+        to the Internet, Java is everywhere!.\n\n
+
+        Java program development requires a Java software development kit (SDK) that typically
+        includes a compiler, interpreter, documentation generator and other tools used to produce
+        a complete application. .\n\n
+
+        <b>History of Java</b>\n\n
+        The history of Java is very interesting. Java was originally designed for interactive television,
+        but it was too advanced technology for the digital cable television industry at the time. The history
+        of java starts with Green Team. Java team members (also known as Green Team), initiated this project
+        to develop a language for digital devices such as set-top boxes, televisions, etc. However, it was suited
+        for internet programming. Later, Java technology was incorporated by Netscape.\n\n
+
+        Why Java Programming named "Java"?\n\n
+        Why had they chosen java name for java language? The team gathered to choose a new name.
+        The suggested words were "dynamic", "revolutionary", "Silk", "jolt", "DNA", etc. They wanted
+        something that reflected the essence of the technology: revolutionary, dynamic, lively, cool,
+        unique, and easy to spell and fun to say.\n\n
+        According to James Gosling, "Java was one of the top choices along with Silk". Since Java was so unique,
+        most of the team members preferred Java than other names.\n
+
+        Java is an island of Indonesia where first coffee was produced (called java coffee).\n
+        Notice that Java is just a name, not an acronym.\n
+        Initially developed by James Gosling at Sun Microsystems (which is now a subsidiary of
+        Oracle Corporation) and released in 1995.
+        In 1995, Time magazine called Java one of the Ten Best Products of 1995.
+        JDK 1.0 released in(January 23, 1996).\n\n
+    </string>
+
+    <string name="javaoverview" formatted="false">
+        Java is a general-purpose, concurrent, object-oriented, class-based, and the runtime environment(JRE)
+        which consists of JVM which is the cornerstone of the Java platform.\n\n
+        <b>What is Java used for?</b>\n\n
+        Java has been used in different domains. Some of them are listed below:\n\n
+        <b>Banking:</b> To deal with transaction management.\n\n
+        <b>Retail:</b> Billing applications that you see in a store/restaurant are completely written in Java.\n\n
+        <b>Information Technology: </b>Java is designed to solve implementation dependencies.\n\n
+        <b>Android:</b> Applications are either written in Java or use Java API.\n\n
+        <b>Financial services:</b> It is used in server-side applications.\n\n
+        <b>Stock market:</b>To write algorithms as to which company they should invest in.\n\n
+        <b>Big Data: </b> Hadoop MapReduce framework is written using Java.\n\n
+        <b>Scientific and Research Community:</b> To deal with huge amount of data.\n\n
+        Currently, Java is used in internet programming, mobile devices, games, e-business solutions,
+        etc. There are given the significant points that describe the history of Java.\n\n
+
+        <b>Features of Java</b>\n\n
+        Simple\n
+        Portable\n
+        Object-oriented\n
+        Secured\n
+        Dynamic\n
+        Distributed\n
+        Robust\n
+        High Performance\n
+        Interpreted\n
+        Multithreaded\n\n
+
+        <b>Components in Java</b>\n\n
+        JVM (Java Virtual Machine)\n\n
+
+        It is an abstract machine. It is a specification that provides a run-time environment in
+        which Java bytecode can be executed. It follows three notations:\n\n
+
+        <b>Specification:</b> It is a document that describes the implementation of the Java virtual machine.
+        It is provided by Sun and other companies.\n\n
+        <b>Implementation:</b> It is a program that meets the requirements of JVM specification.\n\n
+        <b>Runtime Instance: </b>An instance of JVM is created whenever you write a java command on the
+        command prompt and run the class.\n\n
+
+        <b>JRE (Java Runtime Environment)</b>\n\n
+
+        JRE refers to a runtime environment in which Java bytecode can be executed. It implements the JVM
+        (Java Virtual Machine) and provides all the class libraries and other support files that JVM uses
+        at runtime. So JRE is a software package that contains what is required to run a Java program. Basically,
+        its an implementation of the JVM which physically exists.\n\n
+
+        <b>JDK(Java Development Kit)</b>\n\n
+
+        It is the tool necessary to:- \n\n
+
+        <b>Compile</b>\n
+        <b>Document</b>\n
+        <b>Package Java programs.</b>\n\n
+        The JDK completely includes JRE which contains tools for Java programmers.
+        The Java Development Kit is provided free of charge. Along with JRE, it includes an
+        interpreter/loader, a compiler (javac), an archiver (jar), a documentation generator
+        (Javadoc) and other tools needed in Java development. In short, it contains JRE + development tools.\n\n
+    </string>
+
+    <string name="javavariable" formatted="false">
+        <b>Java Variables</b>\n\n
+        A variable is a container which holds the value while the java program is executed.A variable is assigned with a datatype.
+        Variable is a name of memory location. There are three types of variables in java: local, instance and static.
+        There are two types of data types in java: primitive and non-primitive.\n\n
+
+        <b>Variable</b>\n\n
+        Variable is name of reserved area allocated in memory. In other words, it is a name of memory location.
+        It is a combination of "vary + able" that means its value can be changed.\n\n
+
+        <i>int data=50;//Here data is variable</i>\n\n
+
+        <b>Types of Variables</b>\n\n
+        There are three types of variables in java:\n\n
+
+        local variable\n
+        instance variable\n
+        static variable\n\n
+
+        <b>Local Variable</b>\n\n
+        A variable declared inside the body of the method is called local variable. You can use this variable only
+        within that method and the other methods in the class aren\'t even aware that the variable exists.
+        A local variable cannot be defined with "static" keyword.\n\n
+
+        <b>Instance Variable</b>\n\n
+        A variable declared inside the class but outside the body of the method, is called instance variable.
+        It is not declared as static.It is called instance variable because its value is instance specific
+        and is not shared among instances.\n\n
+
+        <b>Static variable</b>\n\n
+        A variable which is declared as static is called static variable. It cannot be local. You can create a
+        single copy of static variable and share among all the instances of the class. Memory allocation for static
+        variable happens only once when the class is loaded in the memory.\n\n
+
+        <b>Example to understand the types of variables in java</b>\n\n
+        class A{\n
+        \t\tint data=50;//instance variable\n
+        \t\tstatic int m=100;//static variable\n
+        \t\tvoid method(){ \n
+        \t\tint n=90;//local variable\n
+        \t} \n
+        }//end of class\n\n
+
+        <b>Variable: Add Two Numbers</b>\n\n
+        class Simple{\n
+        \tpublic static void main(String[] args){\n
+        \t\tint a=10;\n
+        \t\tint b=10;\n
+        \t\tint c=a+b;\n
+        \t\tSystem.out.println(c); \n
+        }}\n\n
+
+
+    </string>
+
+    <string name="javaDataTypes" formatted="false">
+
+        <b>Data Types in Java</b>\n\n
+        Data types specify the different sizes and values that can be stored in the variable. There are two
+        types of data types in Java:\n\n
+
+        <b>Primitive data types:</b> The primitive data types include boolean, char, byte, short, int, long, float and double.\n\n
+        <b>Non-primitive data types:</b> The non-primitive data types include Classes, Interfaces, and Arrays.\n\n
+
+        <b>Java Primitive Data Types</b>\n\n
+        In Java language, primitive data types are the building blocks of data manipulation. These are the most
+        basic data types available in Java language.\n\n
+
+        There are 8 types of primitive data types:\n\n
+
+        boolean data type\n
+        byte data type\n
+        char data type\n
+        short data type\n
+        int data type\n
+        long data type\n
+        float data type\n
+        double data type\n\n
+
+        <b>Boolean Data Type</b>\n\n
+        The Boolean data type is used to store only two possible values: true and false. This data type
+        is used for simple flags that track true/false conditions.\n
+
+        The Boolean data type specifies one bit of information, but its "size" can not be defined precisely.\n\n
+        <b>Example:</b>Boolean one = false\n\n
+
+        <b>Byte Data Type</b>\n\n
+        The byte data type is an example of primitive data type. It isan 8-bit signed two \'s complement integer.
+        Its value-range lies between -128 to 127 (inclusive). Its minimum value is -128 and maximum value is 127.
+        Its default value is 0.\n\n
+        The byte data type is used to save memory in large arrays where the memory savings is most required.
+        It saves space because a byte is 4 times smaller than an integer. It can also be used in place of "int" data type.\n\n
+        <b>Example:</b> byte a = 10, byte b = -20\n\n
+
+        <b>Int Data Type</b>\n\n
+        The int data type is generally used as a default data type for integral values unless if there is no problem about memory.\n\n
+        <b>Example:</b>int a = 100000, int b = -200000\n\n
+
+        <b>Long Data Type</b>\n\n
+        The long data type is a 64-bit two\'s complement integer.Its default value is 0. The long data type is
+        used when you need a range of values more than those provided by int.\n\n
+        <b>Example:</b> long a = 100000L, long b = -200000L\n\n
+
+        <b>Float Data Type</b>\n\n
+        The float data type is a single-precision 32-bit IEEE 754 floating point.Its value range is unlimited.
+        It is recommended to use a float (instead of double) if you need to save memory in large arrays of floating point numbers.
+        The float data type should never be used for precise values, such as currency. Its default value is 0.0F.\n\n
+
+        <b>Example:</b> float f1 = 234.5f\n\n\n
+
+        <b>Double Data Type</b>\n\n
+        The double data type is a double-precision 64-bit IEEE 754 floating point. Its value range is unlimited.
+        The double data type is generally used for decimal values just like float. The double data type also should never be
+        used for precise values, such as currency. Its default value is 0.0d.\n\n
+        <b>Example:</b> double d1 = 12.3\n\n\n
+
+        <b>Char Data Type</b>\n\n
+        The char data type is a single 16-bit Unicode character. Its value-range lies between \'\u0000\' (or 0) to \'\uffff\'
+        (or 65,535 inclusive).The char data type is used to store characters.\n\n
+        <b>Example:</b> char letterA = \'A\'\n\n\n
+
+    </string>
+
+    <string name="javaOperators" formatted="false">
+        <b>Operators in java</b>\n\n
+        Operator in java is a symbol that is used to perform operations. For example: +, -, *, / etc.
+        There are many types of operators in java which are given below:\n\n
+
+        Unary Operator\n
+        Arithmetic Operator\n
+        Shift Operator\n
+        Relational Operator\n
+        Bitwise Operator\n
+        Logical Operator\n
+        Ternary Operator\n
+        Assignment Operator.\n\n\n
+
+
+        <b>Java Unary Operator</b>\n\n
+        The Java unary operators require only one operand. Unary operators are used to perform various operations i.e.:\n\n
+        \t1) incrementing/decrementing a value by one\n
+        \t2) negating an expression\n
+        \t3) inverting the value of a boolean\n\n\n
+
+        class OperatorExample{\n
+        \tpublic static void main(String args[]){\n
+        \t\tint x=10;\n
+        \t\tSystem.out.println(x++);//10 (11)\n
+        \t\tSystem.out.println(++x);//12 \n
+        \t\tSystem.out.println(x--);//12 (11) \n
+        \t\tSystem.out.println(--x);//10 \n
+        }}\n\n\n
+
+
+        <b>Java Arithmetic Operators</b>\n\n
+        Java arithmatic operators are used to perform addition, subtraction, multiplication, and division.
+        They act as basic mathematical operations.\n\n
+
+        class OperatorExample{ \n
+        \tpublic static void main(String args[]){  \n
+        \t\tint a=10; \n
+        \t\tint b=5;  \n
+        \t\tSystem.out.println(a+b);//15  \n
+        \t\tSystem.out.println(a-b);//5  \n
+        \t\tSystem.out.println(a*b);//50  \n
+        \t\tSystem.out.println(a/b);//2 \n
+        \t\tSystem.out.println(a%b);//0 \n
+        }}  \n\n
+
+
+        <b>Java Assignment Operator</b>\n\n
+        Java assignment operator is one of the most common operator. It is used to assign the value on its right to
+        the operand on its left.\n\n
+
+        <b>Java Assignment Operator Example</b>\n\n
+        class OperatorExample{ \n
+        \tpublic static void main(String args[]){ \n
+        \t\tint a=10;\n
+        \t\tint b=20;\n
+        \t\ta+=4;//a=a+4 (a=10+4)\n
+        \t\tb-=4;//b=b-4 (b=20-4) \n
+        \t\tSystem.out.println(a); \n
+        \t\tSystem.out.println(b);  \n
+        }} \n\n\n
+
+
+        <b>Java Ternary Operator</b>\n\n
+        Java Ternary operator is used as one liner replacement for if-then-else statement and used a lot in
+        java programming. it is the only conditional operator which takes three operands.\n\n
+
+        <b>Java Ternary Operator Example</b>\n
+        class OperatorExample{ \n
+        \tpublic static void main(String args[]){ \n
+        \t\tint a=2;\n
+        \t\tint b=5; \n
+        \t\tint min=(a &lt; b)?a:b;\n
+        \t\tSystem.out.println(min);\n
+        }}\n\n\n
+
+    </string>
+
+
+    <string name="javaKeywords" formatted="false">
+
+        <b>abstract:</b> Java abstract keyword is used to declare abstract class.\n\n
+        <b>boolean:</b> Java boolean keyword is used to declare a variable as a boolean type.\n\n
+        <b>break:</b> Java break keyword is used to break loop or switch statement. \n\n
+        <b>byte:</b> Java byte keyword is used to declare a variable that can hold an 8-bit data values.\n\n
+        <b>case:</b> Java case keyword is used to with the switch statements to mark blocks of text.\n\n
+        <b>catch:</b> Java catch keyword is used to catch the exceptions generated by try statements.\n\n
+        <b>char: </b>Java char keyword is used to declare a variable that can hold unsigned 16-bit Unicode characters\n\n
+        <b>class:</b> Java class keyword is used to declare a class.\n\n
+        <b>continue:</b> Java continue keyword is used to continue the loop. \n\n
+        <b>default: </b>Java default keyword is used to specify the default block of code in a switch statement.\n\n
+        <b>do:</b> Java do keyword is used in control statement to declare a loop. It can iterate a part of the program several times.\n\n
+        <b>double:</b> Java double keyword is used to declare a variable that can hold a 64-bit floating-point numbers.\n\n
+        <b>else:</b> Java else keyword is used to indicate the alternative branches in an if statement.\n\n
+        <b>enum:</b> Java enum keyword is used to define a fixed set of constants. Enum constructors are always private or default.\n\n
+        <b>extends: </b>Java extends keyword is used to indicate that a class is derived from another class or interface.\n\n
+        <b>final:</b> Java final keyword is used to indicate that a variable holds a constant value. \n\n
+        <b>finally:</b> Java finally keyword indicates a block of code in a try-catch structure. \n\n
+        <b>float:</b> Java float keyword is used to declare a variable that can hold a 32-bit floating-point number.\n\n
+        <b>for: </b>Java for keyword is used to start a for loop. \n\n
+        <b>if: </b>Java if keyword tests the condition. It executes the if block if condition is true.\n\n
+        <b>implements:</b> Java implements keyword is used to implement an interface.\n\n
+        <b>import: </b>Java import keyword makes classes and interfaces available and accessible to the current source code.\n\n
+        <b>instanceof:</b> Java instanceof keyword is used to test whether the object is an instance of the specified class or implements an interface.\n\n
+        <b>int: </b>Java int keyword is used to declare a variable that can hold a 32-bit signed integer.\n\n
+        <b>interface:</b> Java interface keyword is used to declare an interface. It can have only abstract methods.\n\n\n
+
+    </string>
+
+    <string name="javaControlStatement" formatted="false">
+        <b>Java If-else Statement</b>\n\n
+        The Java if statement is used to test the condition. It checks boolean condition: true or false.
+        There are various types of if statement in java.\n\n
+
+        \t\tif statement\n
+        \t\tif-else statement\n
+        \t\tif-else-if ladder\n
+        \t\tnested if statement\n
+        \t\tJava if Statement\n\n
+        The Java if statement tests the condition. It executes the if block if condition is true.\n\n\n
+
+        <u>Syntax:</u>\n
+
+        if(condition){\n
+        \t//code to be executed\n
+        } \n\n
+
+        <b>Java if-else Statement</b>\n\n
+        The Java if-else statement also tests the condition. It executes the if block if condition is true
+        otherwise else block is executed.\n\n
+
+        <u>Syntax:</u>\n
+        if(condition){ \n
+        \t//code if condition is true  \n
+        }else{  \n
+        \t//code if condition is false \n
+        } \n\n
+
+    </string>
+
+
+    <string name="javaSwitchs" formatted="false">
+
+        <b>Java Switch Statement</b>\n\n
+        The Java switch statement executes one statement from multiple conditions. It is like if-else-if ladder statement.
+        The switch statement works with byte, short, int, long, enum types, String and some wrapper types like Byte,
+        Short, Int, and Long. Since Java 7, you can use strings in the switch statement.\n\n
+
+        In other words, the switch statement tests the equality of a variable against multiple values.\n
+        <b>Points to Remember</b>\n\n
+        There can be one or N number of case values for a switch expression.\n\n
+        The case value must be of switch expression type only. The case value must be literal or constant.
+        It doesn\'t allow variables.\n\n
+        The case values must be unique. In case of duplicate value, it renders compile-time error.\n\n
+        The Java switch expression must be of byte, short, int, long (with its Wrapper type), enums and string.\n\n
+
+        <b>Syntax:</b>
+
+        switch(expression){\n
+        case value1: \n
+         \t\t//code to be executed;\n
+         break;  //optional  \n
+        case value2:  \n
+         \t\t//code to be executed;\n
+         break;  //optional\n
+         ...... \n\n
+
+        default: \n
+         code to be executed if all cases are not matched; \n
+        }\n\n
+
+    </string>
+
+    <string name="javaLoops" formatted="false">
+
+        <b>Loops in Java</b>\n\n
+        In programming languages, loops are used to execute a set of instructions/functions repeatedly when
+        some conditions become true. There are three types of loops in java.\n\n
+
+        \t\tfor loop\n
+        \t\twhile loop\n
+        \t\tdo-while loop\n\n
+
+        <b>Java For Loop</b>\n\n
+        The Java for loop is used to iterate a part of the program several times.
+        If the number of iteration is fixed, it is recommended to use for loop.\n\n
+
+        There are three types of for loops in java.\n
+
+        Simple For Loop\n
+        For-each or Enhanced For Loop\n
+        Labeled For Loop\n\n
+
+        public class ForExample { \n
+        public static void main(String[] args) { \n
+            \t//Code of Java for loop\n
+            \tfor(int i=1;i&lt;=10;i++){\n
+                \t\tSystem.out.println(i);\n
+                }\n
+            }\n
+        }\n\n
+
+        Output:\n\n
+
+            1\n
+            2\n
+            3\n
+            4\n
+            5\n
+            6\n
+            7\n
+            8\n
+            9\n
+            10\n\n
+
+        <b>Java for-each Loop</b>
+        The for-each loop is used to traverse array or collection in java. It is easier to use than simple for
+        loop because we don\'t need to increment value and use subscript notation.\n\n
+
+        It works on elements basis not index. It returns element one by one in the defined variable.\n\n
+
+        <b>Syntax:</b>\n\n
+
+        for(Type var:array){\n
+        \t\t//code to be executed\n
+        }\n\n\n
+
+
+        <b>Java While Loop</b>\n
+        The Java while loop is used to iterate a part of the program several times. If the number of iteration is not fixed,
+        it is recommended to use while loop.\n\n
+        <b>Syntax:</b>\n
+        while(condition){\n
+        \t//code to be executed\n
+        }\n\n
+
+        <b>Example:</b>\n\n
+
+        public class WhileExample { \n
+        public static void main(String[] args) { \n
+            \t\t\tint i=1;\n
+             \t\t\twhile(i&lt;=10){\n
+                 \t\t\t\tSystem.out.println(i);
+             \t\t\ti++; \n
+            } \n
+         } \n
+        }  \n\n
+
+
+        <b>Java do-while Loop</b>\n\n
+        The Java do-while loop is used to iterate a part of the program several times. If the number of iteration is not
+        fixed and you must have to execute the loop at least once, it is recommended to use do-while loop.\n\n
+
+        The Java do-while loop is executed at least once because condition is checked after loop body.\n\n
+
+        <b>Syntax:</b>\n\n
+
+        do{ \n
+        \t\t//code to be executed \n
+        }while(condition); \n\n
+
+    </string>
+
+    <string name="javaBreak" formatted="false">
+
+        <b>Java Break Statement</b>
+        When a break statement is encountered inside a loop, the loop is immediately terminated and the program control
+        resumes at the next statement following the loop.\n\n
+
+        The Java break is used to break loop or switch statement. It breaks the current flow of the program at
+        specified condition. In case of inner loop, it breaks only inner loop.\n\n
+
+        We can use Java break statement in all types of loops such as for loop, while loop and do-while loop.\n\n
+
+        <b>Syntax:</b>\n\n
+
+        jump-statement;\n
+        break;\n\n\n
+
+        <b>Java Break Statement with Loop</b>\n\n
+
+        <u>Example:</u>\n\n
+
+        //Java Program to demonstrate the use of break statement\n
+        //inside the for loop. \n
+        public class BreakExample { \n
+        public static void main(String[] args) { \n
+            \t\t//using for loop \n
+            \t\tfor(int i=1;i&lt;=10;i++){\n
+                \t\t\tif(i==5){ \n
+                    \t\t\t\t//breaking the loop\n
+                    \t\t\t\tbreak; \n
+                } \n
+                System.out.println(i);  \n
+            }  \n
+        } \n
+        } \n\n\n
+
+        <b>Output:</b>
+        \t\t1\n
+        \t\t2\n
+        \t\t3\n
+        \t\t4\n\n
+    </string>
+
+    <string name="javaContinue" formatted="false">
+
+        Java Continue Statement
+        The continue statement is used in loop control structure when you need to jump to the next iteration
+        of the loop immediately. It can be used with for loop or while loop.\n\n
+        The Java continue statement is used to continue the loop. It continues the current flow of the program
+        and skips the remaining code at the specified condition. In case of an inner loop, it continues the inner loop only.\n\n
+        We can use Java continue statement in all types of loops such as for loop, while loop and do-while loop.\n\n
+
+        <b>Syntax:</b>\n\n
+        jump-statement;\n
+        continue;\n\n
+    </string>
+
+
+    <string name="javaComments" formatted="false">
+
+        <b>Java Comments</b>
+        The java comments are statements that are not executed by the compiler and interpreter.
+        The comments can be used to provide information or explanation about the variable, method,
+        class or any statement. It can also be used to hide program code for specific time.\n\n
+
+        <b>Types of Java Comments</b>\n\n
+        There are 3 types of comments in java.\n
+        \t\t<b>Single Line Comment</b>\n
+        \t\tMulti Line Comment\n
+        \t\tDocumentation Comment\n\n\n
+
+        <b>(1) Single Line Comment</b>\n
+        The single line comment is used to comment only one line.\n
+        Syntax:\n
+        \t\t\t//This is single line comment \n\n
+
+        <b>(2) Java Multiline Comment</b>\n\n
+        The multi line comment is used to comment multiple lines of code.\n
+
+        Syntax:\n
+        \t\t\t/*\n
+        \t\t\tThis\n
+        \t\t\tis\n
+        \t\t\tmulti line\n
+        \t\t\tcomment\n
+        \t\t\t*/\n\n
+
+
+        <b>(3) Java Documentation Comment</b>\n\n
+        The documentation comment is used to create documentation API. To create documentation API,
+        you need to use javadoc tool.\n\n
+
+        <b>Syntax:</b>\n
+        \t\t\t/** \n
+        \t\t\tThis \n
+        \t\t\tis  \n
+        \t\t\tdocumentation\n
+        \t\t\tcomment \n
+        \t\t\t*/  \n\n
+    </string>
+
+
+    <string name="javaOopConcept" formatted="false">
+        <b>Java OOPs Concepts</b>\n\n
+        In this Section, we will learn about the basics of OOPs. Object-Oriented Programming is a paradigm
+        that provides many concepts such as inheritance, data binding, polymorphism, etc\n\n
+
+        The popular object-oriented languages are Java, C#, PHP, Python, C++, etc.\n
+        The main aim of object-oriented programming is to implement real-world entities for
+        example object, classes, abstraction, inheritance, polymorphism, etc.\n\n
+
+        <b>OOPs (Object-Oriented Programming System)</b>\n\n
+
+        Object means a real-world entity such as a pen, chair, table, computer, watch, etc. Object-Oriented
+        Programming is a methodology or paradigm to design a program using classes and objects. It simplifies
+        the software development and maintenance by providing some concepts:\n\n
+
+        \t\t\tObject\n
+        \t\t\tClass\n
+        \t\t\tInheritance\n
+        \t\t\tPolymorphism\n
+        \t\t\tAbstraction\n
+        \t\t\tEncapsulation\n\n\n
+
+        <b>Object</b>\n\n
+        Java Object Any entity that has state and behavior is known as an object. For example a chair, pen, table,
+        keyboard, bike, etc. It can be physical or logical.\n\n
+        An Object can be defined as an instance of a class. An object contains an address and
+        takes up some space in memory. Objects can communicate without knowing the details of each other\'s
+        data or code. The only necessary thing is the type of message accepted and the type of response returned by the objects.\n\n
+
+        <b>Example:</b> A dog is an object because it has states like color, name, breed, etc. as well as behaviors
+        like wagging the tail, barking, eating, etc.\n\n
+
+        <b>Class</b>
+        Collection of objects is called class. It is a logical entity.\n
+        A class can also be defined as a blueprint from which you can create an individual object.
+        Class doesn\'t consume any space.\n\n
+    </string>
+
+    <string name="javaConstructor" formatted="false">
+        <b>Constructors in Java</b>\n\n
+        In Java, a constructor is a block of codes similar to the method. It is called when an instance
+        of the object is created, and memory is allocated for the object.
+        It is a special type of method which is used to initialize the object.\n\n
+
+        <b>When is a constructor called</b>
+        Every time an object is created using new() keyword, at least one constructor is called.
+        It calls a default constructor.\n\n
+        <b>Note:</b> It is called constructor because it constructs the values at the time of object creation.
+        It is not necessary to write a constructor for a class. It is because java compiler creates a default
+        constructor if your class doesn\'t have any.\n\n
+
+        <b>Rules for creating Java constructor</b>\n\n
+        There are two rules defined for the constructor.\n
+        1. Constructor name must be the same as its class name\n
+        2. A Constructor must have no explicit return type\n
+        3. A Java constructor cannot be abstract, static, final, and synchronized\n\n\n
+    </string>
+
+
+    <string name="javaInheritance" formatted="false">
+        <b>Inheritance in Java</b>\n\n
+        Inheritance in Java is a mechanism in which one object acquires all the properties and behaviors of a parent object.
+        It is an important part of OOPs (Object Oriented programming system).The idea behind inheritance in Java is
+        that you can create new classes that are built upon existing classes. When you inherit from an existing class,
+        you can reuse methods and fields of the parent class. Moreover, you can add new methods and fields in your current
+        class also.\n\n
+        Inheritance represents the IS-A relationship which is also known as a parent-child relationship.\n\n
+
+        <b>Why use inheritance in java</b>\n
+        For Method Overriding (so runtime polymorphism can be achieved).\n
+        For Code Reusability.\n\n
+
+        <b>The syntax of Java Inheritance</b>\n
+        class Subclass-name extends Superclass-name\n
+        { \n
+           \t\t\t\t//methods and fields\n
+        } \n\n
+
+        The extends keyword indicates that you are making a new class that derives from an existing class.
+        The meaning of "extends" is to increase the functionality.\n
+        In the terminology of Java, a class which is inherited is called a parent or superclass,
+        and the new class is called child or subclass.\n\n
+    </string>
+
+    <string name="javaOverloading" formatted="false">
+
+        <b>Method Overloading in Java</b>\n\n
+        If a class has multiple methods having same name but different in parameters, it is known as <b>Method Overloading.</b>\n\n
+        If we have to perform only one operation, having same name of the methods increases the readability of the program.\n
+        Suppose you have to perform addition of the given numbers but there can be any number of arguments,
+        if you write the method such as a(int,int) for two parameters, and b(int,int,int) for three parameters then it
+        may be difficult for you as well as other programmers to understand the behavior of the method because its name differs.\n\n
+
+        <b>Advantage of method overloading</b>\n\n
+        Method overloading increases the readability of the program.\n\n
+
+        Different ways to overload the method\n
+        There are two ways to overload the method in java\n\n
+
+        By changing number of arguments\n
+        By changing the data type\n\n
+    </string>
+
+    <string name="javaOverriding" formatted="false">
+
+        <b>Method Overriding in Java</b>\n\n
+
+        If subclass (child class) has the same method as declared in the parent class, it is known as method overriding in Java.\n\n
+        In other words, If a subclass provides the specific implementation of the method that has been declared by one of
+        its parent class, it is known as method overriding.\n\n
+
+        <b>Usage of Java Method Overriding</b>\n\n
+        Method overriding is used to provide the specific implementation of a method which is already provided by its superclass.\n
+        Method overriding is used for runtime polymorphism\n\n
+
+        <b>Rules for Java Method Overriding</b>\n\n
+        \t(1) The method must have the same name as in the parent class\n
+        \t(2) The method must have the same parameter as in the parent class.\n
+        \t(3) There must be an IS-A relationship (inheritance).\n\n
+    </string>
+
+    <string name="javaAbstract" formatted="false">
+
+        <b>Abstract class in Java</b>\n\n
+        A class which is declared with the abstract keyword is known as an abstract class in Java. It can have abstract
+        and non-abstract methods (method with the body).\n\n
+        Before learning the Java abstract class, let\'s understand the abstraction in Java first.\n\n
+
+        <b>Abstraction in Java</b>\n\n
+        <b>Abstraction</b> is a process of hiding the implementation details and showing only functionality to the user.\n
+
+        Another way, it shows only essential things to the user and hides the internal details, for example,
+        sending SMS where you type the text and send the message. You don\'t know the internal processing about the message delivery.\n\n
+        Abstraction lets you focus on what the object does instead of how it does it.\n
+
+        <b>Ways to achieve Abstraction</b>\n\n
+        There are two ways to achieve abstraction in java\n
+        (1) Abstract class (0 to 100%)\n
+        (2) Interface (100%)\n\n
+
+        <b>Points to Remember</b>\n\n
+        An abstract class must be declared with an abstract keyword.\n
+        It can have abstract and non-abstract methods.\n
+        It cannot be instantiated.\n
+        It can have constructors and static methods also.\n
+        It can have final methods which will force the subclass not to change the body of the method.\n\n
+    </string>
+
+    <string name="javaInterface" formatted="false">
+
+        <b>Interface in Java</b>\n\n
+        An interface in java is a blueprint of a class. It has static constants and abstract methods.\n\n
+        The interface in Java is a mechanism to achieve abstraction. There can be only abstract methods
+        in the Java interface, not method body. It is used to achieve abstraction and multiple inheritance in Java.\n\n
+        In other words, you can say that interfaces can have abstract methods and variables. It cannot have a method body.\n\n
+
+        <b>Why use Java interface?</b>\n\n
+        There are mainly three reasons to use interface. They are given below.\n
+
+        \t\tIt is used to achieve abstraction.\n
+        \t\tBy interface, we can support the functionality of multiple inheritance.\n
+        \t\tIt can be used to achieve loose coupling.\n\n
+
+        <b>Syntax:</b>\n\n
+        interface &lt;interface_name &gt;{ \n
+
+            \t\t\t// declare constant fields \n
+            \t\t\t// declare methods that abstract \n
+            \t\t\t// by default. \n
+        }  \n\n
+    </string>
+
+    <string name="javaArray" formatted="false">
+        <b>Java Array</b>\n
+        Normally, an array is a collection of similar type of elements that have a contiguous memory location.\n\n
+        Java array is an object which contains elements of a similar data type. It is a data structure where we
+        store similar elements. We can store only a fixed set of elements in a Java array.\n\n
+        Array in java is index-based, the first element of the array is stored at the 0 index.\n\n
+
+        <b>Types of Array in java</b>\n\n
+        There are two types of array.\n
+        <b>Single Dimensional Array</b>\n
+        <b>Multidimensional Array</b>\n\n
+
+        <b>Syntax to Declare an Array in Java</b>\n
+        dataType[] arr; (or) \n
+        dataType []arr; (or)  \n
+        dataType arr[];\n\n
+
+    </string>
+
+    <string name="javaAccessModifer" formatted="false">
+
+        <b>Access Modifiers in java</b>\n\n
+        There are two types of modifiers in java: access modifiers and non-access modifiers.\n\n
+
+        The access modifiers in java specifies accessibility (scope) of a data member, method, constructor or class.\n\n
+
+        <b>There are 4 types of java access modifiers:</b>\n\n
+        \t\t\t(1) private\n
+        \t\t\t(2) default\n
+        \t\t\t(3) protected\n
+        \t\t\t(4) public\n\n
+        There are many non-access modifiers such as static, abstract, synchronized, native, volatile,
+        transient etc. Here, we will learn access modifiers.\n\n
+
+    </string>
+
+
+
+
+
+    <string name="java_mcq_question_ans" formatted="false" >
+
+        <i>1. \tWhat is the range of short data type in Java?</i>\n\n
+        a) -128 to 127\n
+        <b>b) -32768 to 32767</b>\n
+        c) -2147483648 to 2147483647\n
+        d) None of the mentioned\n\n\n
+
+        2. \tWhat is the range of byte data type in Java?\n\n
+        <b>a) -128 to 127</b>\n
+        b) -32768 to 32767\n
+        c) -2147483648 to 2147483647\n
+        d) None of the mentioned\n\n\n
+
+        3. \tWhich of the following are legal lines of Java code?\n\n
+         1. int w = (int)888.8;\n
+         2. byte x = (byte)100L;\n
+         3. long y = (byte)100;\n
+         4. byte z = (byte)100L;\n
+        <b>All statements are correct</b>\n\n\n
+
+        4. \tAn expression involving byte, int, and literal numbers is promoted to which of these?\n\n
+        <b>a) int</b>\n
+        b) long\n
+        c) byte\n
+        d) float\n\n\n
+
+        5. \tWhich of these literals can be contained in float data type variable?\n\n
+        a) -1.7e+308\n
+        <b>b) -3.4e+038</b>\n
+        c) +1.7e+308\n
+        d) -3.4e+050\n\n\n
+
+        6. \tWhich data type value is returned by all transcendental math functions?\n\n
+        a) int\n
+        b) float\n
+        <b>c) double</b>\n
+        d) long\n\n\n
+
+        7. \tWhich is a valid keyword in java?\n\n
+        <b>a) interface</b>\n
+        b) string\n
+        c) Float\n
+        c) unsigned\n\n\n
+
+        8. \tWhich one of the following will declare an array and initialize it with five numbers?\n\n
+        a) Array a = new Array(5);\n
+        <b>b) int [] a = {23,22,21,20,19};</b>\n
+        c) int a [] = new int[5];\n
+        d) int [5] array;\n\n\n
+
+        10. \tWhich is the valid declarations within an interface definition?\n\n\n
+        <b>a) public double methoda();</b>\n
+        b) public final double methoda();\n
+        c) static void methoda(double d1);\n
+        d) protected void methoda(double d1);\n\n\n
+
+        11. \tJava supports multidimensional arrays.\n\n
+        <b>a) True</b>\n
+        b) False\n\n\n
+
+        12. \tWhat are primitive data types?\n\n
+        <b>a) byte, short, int, long</b>\n
+        b) float, double\n
+        c) boolean\n
+        d) char\n\n\n
+
+        13. \tWhich of these can be returned by the operator and?\n\n
+        a) Integer\n
+        b) Boolean\n
+        c) Character\n
+        <b>d) Integer or Boolean</b>\n\n\n
+
+
+        14. \tWhich of these can not be used for a variable name in Java?\n\n
+        a) identifier\n
+        <b>b) keyword</b>\n
+        c) identifier and keyword\n
+        d) none of the mentioned\n\n\n
+
+        15. \tWhich of these is long data type literal?\n\n
+        <b>a) 0x99fffL</b>\n
+        b) ABCDEFG\n
+        c) 0x99fffa\n
+        d) 99671246\n\n\n
+
+        16. \tWhich of the following can be operands of arithmetic operators?\n\n
+        a) Numeric\n
+        b) Boolean\n
+        c) Characters\n
+        <b>d) Both Numeric and Characters</b>\n\n\n
+
+        17. \tHow many primitive data types are there in java\n\n
+        a) 6\n
+        b) 7\n
+        <b>c) 8</b>\n
+        d) 9\n\n\n
+
+        18. \tIn java byte, long, short, int and long all these are\n\n
+        <b>a) signed</b>\n
+        b) unsigned\n
+        c) both of above\n
+        d) none of above\n\n\n
+
+        19. \tWho is known as father of Java Programming Language?\n\n
+        <b>a) James Gosling</b>\n
+        b) M. P Java\n
+        c) Charel Babbage\n
+        d) Blais Pascal\n\n\n
+
+        20. \tWhich provides runtime environment for java byte code to be executed?\n\n
+        a) JDK\n
+        <b>b) JVM</b>\n
+        c) JRE\n
+        d) JAVAC\n\n\n
+
+        21. \tWhich of the following are not Java keywords ?\n\n
+        a) double\n
+        b) switch\n
+        <b>c) then</b>\n
+        d) instanceo\n\n\n
+
+        22. \tModulus operator (%) can be applied to which of these?\n\n
+        a) Integers\n
+        b) Floating - point numbers\n
+        <b>c) Both A and B</b>\n
+        d) None of These\n\n\n
+
+        23. \tWhat feature of OOP has a super-class sub-class concept?\n\n
+        <b>a) Hierarchical inheritance</b>
+        b) Single inheritance\n
+        c) Multiple inheritances\n
+        d) Multilevel inheritance\n\n\n
+
+        24. \tWhat is the full form of JVM ?\n\n
+        a) Java Very Large Machine\n
+        b) Java Verified Machine\n
+        c) Java Very Small Machine\n
+        <b>d) Java Virtual Machine</b>\n\n\n
+
+        25. \tIn Java code, the line that begins with /* and ends with */ is known as?\n\n
+        <b>a) Multiline comment</b>\n
+        b) Single line comment\n
+        c) Both A and B\n
+        d) None of these\n\n\n
+
+
+        27. \tWhich of the following are not Java modifiers?\n\n
+        a) public\n
+        b) private\n
+        <b>c) friendly</b>\n
+        d) transient\n\n\n
+
+        28. \tWhich one is a template for creating different objects ?\n\n
+        a) An Array\n
+        <b>b) A class</b>\n
+        c) Interface\n
+        d) Method\n\n\n
+
+        30. \tWhich of these operators is used to allocate memory to array variable in Java?\n
+        a) alloc\n
+        b) malloc\n
+        c) new malloc\n
+        <b>d) new</b>\n\n\n
+
+        31. \tData type long literals are appended by _____ \n\n
+        a) Uppercase L\n
+        b) Lowercase L\n
+        c) Long\n
+        <b>d) Both A and B</b>\n\n\n
+
+        32. \tJava language was initially called as ________ \n\n
+        a) Sumatra\n
+        b) J++\n
+        <b>c) Oak</b>\n
+        d) Pine\n\n\n
+
+        33. \tWhich of the following is true about String?\n\n
+         a) String is mutable.\n
+        <b>b) String is immutable.</b>\n
+         c) String is a data type.\n
+         d) None of the above.\n\n\n
+
+        34. What is the default value of long variable?\n\n
+        a) 0\n
+        b) 0.0\n
+        <b>c) 0L</b>\n
+        d) not defined\n\n\n
+
+        35. \tCan be constructor be made private?\n\n
+        <b>a) true</b>\n
+        b) false\n\n\n
+
+        36. \tWhich company started developing Java (as a Green Project)?\n\n
+        a) Microsoft\n
+        b) Oracle\n
+        c) Apple\n
+        <b>d) Sun Microsystem</b>\n\n\n
+
+        37. \tJava Interpreter is used for which purpose?\n\n
+        a) Compile Java program\n
+        <b>b) Execute class file</b>\n
+        c) Both 1 and 2\n
+        d) None of these\n\n\n
+
+        38. \tAfter compilation of a Java program which code generated?\n\n
+        a) Executable code (.exe)\n
+        b) Assembly code (.asm)\n
+        c) Object Code (.obj)\n
+        <b>d) Byte Code (.class)</b>\n\n\n
+
+        39. \tWhich is not a valid type of variable?\n\n
+        <b>a) Global variable</b>\n
+        b) Local variable\n
+        c) Class variable\n
+        d) Instance variable\n\n\n
+
+        40. \tJRE stands for __________. \n\n
+        a) Java Running Environment\n
+        <b>b) Java Run Time Environment</b>\n
+        c) Java Runnable Environment\n
+        d) None of these\n\n\n
+
+    </string>
+
+
+    <string name="pythonMCQ" formatted="false">
+
+        1. \tIs Python case sensitive when dealing with identifiers?\n\n
+        <b>a) yes</b>\n
+        b) no\n
+        c) machine dependent\n
+        d) none of the mentioned\n\n\n
+
+        2. \tWhat is the maximum possible length of an identifier?\n\n
+        a) 31 characters\n
+        b) 63 characters\n
+        c) 79 characters\n
+        <b>d) none of the mentioned</b>\n\n\n
+
+        3.\tWhich of the following is an invalid variable?\n\n
+        a) my_string_1\n
+        <b>b) 1st_string</b>\n
+        c) foo\n
+        d) _\n\n\n
+
+        4. \tWhich of the following is not a keyword?\n\n
+        <b>a) eval</b>\n
+        b) assert\n
+        c) nonlocal\n
+        d) pass\n\n\n
+
+        5. \tAll keywords in Python are in\n\n
+        a) lower case\n
+        b) UPPER CASE\n
+        c) Capitalized\n
+        <b>d) None of the mentioned</b>\n\n\n
+
+        6.\tWhich of the following is an invalid statement?\n\n
+        a) abc = 1,000,000\n
+        <b>b) a b c = 1000 2000 3000</b>\n
+        c) a,b,c = 1000, 2000, 3000\n
+        d) a_b_c = 1,000,000\n\n\n
+
+        7. \tWhich of the following cannot be a variable?\n\n
+        a) __init__\n
+        <b>b) in</b>\n
+        c) it\n
+        d) on\n\n\n
+
+        8. \tWhich one of these is floor division?\n\n
+        a) /\n
+        <b>b) //</b>\n
+        c) %\n
+        d) None of the mentioned\n\n\n
+
+        9.\tWhat is answer of this expression, 22 % 3 is?\n\n
+        a) 7\n
+        <b>b) 1</b>
+        c) 0\n
+        d) 5\n\n\n
+
+        10. \tOperators with the same precedence are evaluated in which manner?\n\n
+        <b>a) Left to Right</b>\n
+        b) Right to Left\n
+        c) Can\’t say\n
+        d) None of the mentioned\n\n\n
+
+        11. \tWhat is the output of this expression, \t\t\t3*1**3?\n\n
+        a) 27\n
+        b) 9\n
+        <b>c) 3</b>\n
+        d) 1\n\n\n
+
+        12. \tWhich one of the following have the highest precedence in the expression?\n\n
+        a) Exponential\n
+        b) Addition\n
+        c) Multiplication\n
+        <b>d) Parentheses</b>\n\n\n
+
+        13. \tWhich of these in not a core data type?\n\n
+        a) Lists\n
+        b) Dictionary\n
+        c) Tuples\n
+        <b>d) Class</b>\n\n\n
+
+        14. \tWhat is the return type of function id ?\n\n
+        <b>a) int</b>\n
+        b) float\n
+        c) bool\n
+        d) dict\n\n\n
+
+
+        15. \tWhat error occurs when you execute?\n
+        \t\t\tapple = mango\n\n
+        a) SyntaxError\n
+        <b>b) NameError</b>
+        c) ValueError\n
+        d) TypeErro\n\n\n
+
+        16. \tIn order to store values in terms of key and value we use what core data type.\n\n
+        a) list\n
+        b) tuple\n
+        c) class\n
+        <b>d) dictionary</b>\n\n\n
+
+        17. \tWhat is the output of print 0.1 + 0.2 == 0.3?\n\n
+        a) True\n
+        <b>b) False</b>\n
+        c) Machine dependent\n
+        d) Error\n\n\n
+
+
+        18. \tWhich of the following is not a complex number?\n\n
+        a) k = 2 + 3j\n
+        b) k = complex(2, 3)\n
+        <b>c) k = 2 + 3l</b>\n
+        d) k = 2 + 3J\n\n\n
+
+        19.\t What is the type of inf?\n\n
+        a) Boolean\n
+        b) Integer\n
+        <b>c) Float</b>\n
+        d) Complex\n\n\n
+
+        20. \tWhat does ~4 evaluate to?\n\n
+        <b>a) -5</b>\n
+        b) -4\n
+        c) -3\n
+        d) +3\n\n\n
+
+        21. \tWhich of the following is incorrect?\n\n
+        a) x = 0b101\n
+        b) x = 0x4f5\n
+        c) x = 19023\n
+        <b>d) x = 03964</b>\n\n\n
+
+        22. \tWhat is the result of cmp(3, 1)?\n\n
+        <b>a) 1</b>\n
+        b) 0\n
+        c) True\n
+        d) False\n\n\n
+
+        23. \tWhich of the following is incorrect?\n\n\n
+        a) float(\‘inf\’)\n
+        b) float(\‘nan\’)\n
+        c) float(\’56\’+\’78\’)\n
+        <b>d) float(\’12+34\′)</b>\n\n\n
+
+        24. \tWhat is the result of round(0.5) – round(-0.5)?\n\n
+        a) 1.0\n
+        <b>b) 2.0</b>\n
+        c) 0.0\n
+        d) None of the mentioned\n\n\n
+
+        25. \tWhat arithmetic operators cannot be used with strings ?\n\n
+        a) +\n
+        b) *\n
+        <b>c) –</b>\n
+        d) All of the mentioned\n\n\n
+
+        26. \tprint(0xA + 0xB + 0xC) :\n\n
+        a) 0xA0xB0xC\n
+        b) Error\n
+        c) 0x22\n
+        <b>d) 33</b>\n\n\n
+
+
+        27. \tWhich of these is not a core data type?\n\n
+         a) Lists\n
+         b) Dictionary\n
+         c) Tuples\n
+        <b>d) Class</b>\n\n
+
+
+        28. \tWhat data type is the object below ?\n
+         L = [1, 23, \‘hello\’, 1]\n\n
+        <b>a) List</b>\n
+        b) Dictionary\n
+        c) Tuple\n
+        d) Array\n\n\n
+
+        29. \tWhich of the following function convert a string to a float in python?\n\n
+        a) int(x [,base])\n
+        b) long(x [,base])\n
+        <b>c) float(x) </b>\n
+        d) str(x)\n\n\n
+
+
+        30. \tWhich module in Python supports regular expressions?\n\n
+        <b>a) re</b>\n
+        b) regex\n
+        c) pyregex\n
+        d) None of the above\n\n\n
+
+        31. \tWhat is the output of the following program?\n
+        print 0.1 + 0.2 == 0.3\n\n
+        a) True\n
+        <b>b) False</b>\n
+        c) Machine dependent\n
+        d) Error\n\n\n
+
+        32. \tWhat is the output of the following?\n
+        print("Hello {0!r} and {0!s}".format(\'foo\', \'bin\'))\n\n
+        a) Hello foo and foo\n
+        <b>b) Hello \‘foo\’ and foo</b>\n
+        c) Hello foo and \‘bin\’\n
+        d) Error\n\n\n
+
+
+        33. \tWhich of the following function convert a string to a float in python?\n\n
+        a) int(x [,base])\n
+        b) long(x [,base] )\n
+        <b> c) float(x) </b>\n
+        d) str(x)\n\n\n
+
+
+        34. \tWhat is the output of the following program : \n
+        print "Hello World"[::-1]\n\n
+        <b>d)dlroW olleH</b>
+        b) Hello Worl\n
+        d) d\n
+        d) Error\n\n\n
+
+        35. \tGiven a function that does not return any value, what value is shown when executed at the shell?\n\n
+        a) int\n
+        b) bool\n
+        c) void\n
+        <b>d) None</b>\n\n\n
+
+
+        36. \tGiven a string s = “Welcome”, which of the following code is incorrect?\n\n
+        a) print s[0]\n
+        b) print s.lower()\n
+        <b>c) s[1] = \‘r\’</b>\n
+        d) print s.strip()\n\n\n
+
+        37. \t________ is a simple but incomplete version of a function.\n\n
+        <b>a) Stub</b>\n
+        b) Function\n
+        c) A function developed using bottom-up approach\n
+        d) A function developed using top-down approach\n\n\n
+
+        38. \tTo start Python from the command prompt, use the command ______\n\n
+        a) execute python\n
+        b) go python\n
+        <b>c) python</b>\n
+        d) run python\n\n\n
+
+        39. \tWhich of the following is correct about Python?\n\n
+        (A) It supports automatic garbage collection.\n
+        (B) It can be easily integrated with C, C++, COM, ActiveX, CORBA, and Java\n
+        <b>(C) Both of the above</b>\n
+        (D) None of the above\n\n
+
+        40. \tWhat is the output of the following code : \n
+        print 9//2 \n\n
+        (A) 4.5\n
+        (B) 4.0\n
+        <b> (C) 4</b>\n
+        (D) Error\n\n\n
+
+    </string>
+
+
+    <!--java MCQ-->
+    <string name="JQ1"><b>(1) Correct syntax to create a character object.</b>\n</string>
+    <string name="Jq1_opA"><b>\tchar ch=new char(\'A\');</b></string>
+    <string name="Jq1_opB"><b>\tChar ch=new Char(\'A\');</b></string>
+    <string name="Jq1_opC"><b>\tCharacter ch=new Character(\'A\');</b></string>
+    <string name="Jq1_opD"><b>\tCharacter ch=Character(\'A\');</b></string>
+
+    <string name="JQ2"><b>(2) After compilation of a Java program which code generated?</b>\n</string>
+    <string name="Jq2_opA"><b>\tExecutable code (.exe)</b></string>
+    <string name="Jq2_opB"><b>\tAssembly code (.asm)</b></string>
+    <string name="Jq2_opC"><b>\tObject Code (.obj)</b></string>
+    <string name="Jq2_opD"><b>\tByte Code (.class)</b></string>
+
+    <string name="JQ3"><b>(3)  Which is a primitive data type?</b>\n</string>
+    <string name="Jq3_opA"><b>\tString</b></string>
+    <string name="Jq3_opB"><b>\tCharacter</b></string>
+    <string name="Jq3_opC"><b>\tFloat</b></string>
+    <string name="Jq3_opD"><b>\tbyte</b></string>
+
+    <string name="JQ4">(4) Which of the tool is used to compile java code ?\n</string>
+    <string name="Jq4_opA"><b>\tjavadoc</b></string>
+    <string name="Jq4_opB"><b>\tjavac</b></string>
+    <string name="Jq4_opC"><b>\tjava</b></string>
+    <string name="Jq4_opD"><b>\tjar</b></string>
+
+    <string name="JQ5">(5) What is the default value of long variable?\n</string>
+    <string name="Jq5_opA"><b>\t0L</b></string>
+    <string name="Jq5_opB"><b>\t0.0</b></string>
+    <string name="Jq5_opC"><b>\t0</b></string>
+    <string name="Jq5_opD"><b>\tNot Defined</b></string>
+
+    <string name="JQ6">(6) Which of these can not be used for a variable name in Java? \n</string>
+    <string name="Jq6_opA"><b>\tkeyword</b></string>
+    <string name="Jq6_opB"><b>\tidentifier</b></string>
+    <string name="Jq6_opC"><b>\tkeyword and identifier</b></string>
+    <string name="Jq6_opD"><b>\tnone</b></string>
+
+
+    <string name="JQ7">(7) Who is known as father of Java Programming Language?\n</string>
+    <string name="Jq7_opA"><b>\tM. P Java</b></string>
+    <string name="Jq7_opB"><b>\tJames Gosling</b></string>
+    <string name="Jq7_opC"><b>\tCharel Babbage</b></string>
+    <string name="Jq7_opD"><b>\tBlais Pascal</b></string>
+
+    <string name="JQ8">(8) Which of the following are not Java modifiers?\n</string>
+    <string name="Jq8_opA"><b>\ttransient</b></string>
+    <string name="Jq8_opB"><b>\tpublic</b></string>
+    <string name="Jq8_opC"><b>\tprivate</b></string>
+    <string name="Jq8_opD"><b>\tfriendly</b></string>
+
+    <string name="JQ9">(9) Which inheritance in java programming is not supported?\n</string>
+    <string name="Jq9_opA"><b>\tMultiple inheritance using classes</b></string>
+    <string name="Jq9_opB"><b>\tMultiple inheritance using interfaces</b></string>
+    <string name="Jq9_opC"><b>\tMultilevel inheritance</b></string>
+    <string name="Jq9_opD"><b>\tSingle inheritance</b></string>
+
+    <string name="JQ10">(10) What concepts come under Polymorphism in java?\n</string>
+    <string name="Jq10_opA"><b>\tMethod overloading</b></string>
+    <string name="Jq10_opB"><b>\tConstructor overloading</b></string>
+    <string name="Jq10_opC"><b>\tMethod overriding</b></string>
+    <string name="Jq10_opD"><b>\tAll the above</b></string>
+
+
+
+    <!--Python MCQ-->
+    <string name="PQ1"><b>(1) Which of these is not a core data type?</b>\n</string>
+    <string name="Pq1_opA"><b>\tDictionary</b></string>
+    <string name="Pq1_opB"><b>\tLists</b></string>
+    <string name="Pq1_opC"><b>\tClass</b></string>
+    <string name="Pq1_opD"><b>\tTuples</b></string>
+
+    <string name="PQ2"><b>(2) What is the return type of function id ?</b>\n</string>
+    <string name="Pq2_opA"><b>\tint</b></string>
+    <string name="Pq2_opB"><b>\tfloat</b></string>
+    <string name="Pq2_opC"><b>\tbool</b></string>
+    <string name="Pq2_opD"><b>\tdict</b></string>
+
+    <string name="PQ3"><b>(3)  Who created python ?</b>\n</string>
+    <string name="Pq3_opA"><b>\tGuido Van Rossum</b></string>
+    <string name="Pq3_opB"><b>\tJames Gosling</b></string>
+    <string name="Pq3_opC"><b>\tDenis Ritchie</b></string>
+    <string name="Pq3_opD"><b>\tTom Cruise</b></string>
+
+    <string name="PQ4">(4) Which of the following keyword is a valid placeholder for body of the function?\n</string>
+    <string name="Pq4_opA"><b>\tbreak</b></string>
+    <string name="Pq4_opB"><b>\tcontinue</b></string>
+    <string name="Pq4_opC"><b>\tbody</b></string>
+    <string name="Pq4_opD"><b>\tpass</b></string>
+
+    <string name="PQ5">(5) Out if list and tuples which are mutable ?\n</string>
+    <string name="Pq5_opA"><b>\ttuples</b></string>
+    <string name="Pq5_opB"><b>\tlist</b></string>
+    <string name="Pq5_opC"><b>\tboth are mutable</b></string>
+    <string name="Pq5_opD"><b>\tnone</b></string>
+
+    <string name="PQ6">(6) Let a = [ 1,2,3,4,5 ] then which of the following is correct ?\n</string>
+    <string name="Pq6_opA"><b>\t print(a[:]) => [1,2,3,4]</b></string>
+    <string name="Pq6_opB"><b>\t print(a[0:]) => [2,3,4,5]</b></string>
+    <string name="Pq6_opC"><b>\t print(a[:100]) => [1,2,3,4,5]</b></string>
+    <string name="Pq6_opD"><b>\t print(a[-1:]) => [1,2]</b></string>
+
+
+    <string name="PQ7">(7) Which function is used to open the file for reading in python?\n</string>
+    <string name="Pq7_opA"><b>\tfopen(filename, mode)</b></string>
+    <string name="Pq7_opB"><b>\topen(filename, mode)</b></string>
+    <string name="Pq7_opC"><b>\topenfile(filename, mode)</b></string>
+    <string name="Pq7_opD"><b>\topen_file(filename, mode)</b></string>
+
+    <string name="PQ8">(8) What is the name of data type for character in python ?\n</string>
+    <string name="Pq8_opA"><b>\tchr</b></string>
+    <string name="Pq8_opB"><b>\tchar</b></string>
+    <string name="Pq8_opC"><b>\tcharacter</b></string>
+    <string name="Pq8_opD"><b>\tpython do not have any data type for characters they are treated as string.</b></string>
+
+    <string name="PQ9">(9) In python which is the correct method to load a module ?\n</string>
+    <string name="Pq9_opA"><b>\tinclude math</b></string>
+    <string name="Pq9_opB"><b>\timport math</b></string>
+    <string name="Pq9_opC"><b>\t#include&lt;math.h&gt;</b></string>
+    <string name="Pq9_opD"><b>\t using math</b></string>
+
+    <string name="PQ10">(10) What is the output of the following?\nprint(\'{:,}\'.format(1112223334))</string>
+    <string name="Pq10_opA"><b>\t1,112,223,334</b></string>
+    <string name="Pq10_opB"><b>\t111,222,333,4</b></string>
+    <string name="Pq10_opC"><b>\t1112223334</b></string>
+    <string name="Pq10_opD"><b>\tError</b></string>
+
+
+    <string name="pyIntroduction" formatted="false">
+        Python is a general purpose, dynamic, high level and interpreted programming language.
+        It supports Object Oriented programming approach to develop applications.
+        It is simple and easy to learn and provides lots of high-level data structures.\n\n
+        Python is easy to learn yet powerful and versatile scripting language which makes it attractive for
+        Application Development.\n\n
+        Python\'s syntax and dynamic typing with its interpreted nature, makes it an ideal language for scripting
+        and rapid application development.Python supports multiple programming pattern, including object oriented,
+        imperative and functional or procedural programming styles.\n\n
+        Python is not intended to work on special area such as web programming. That is why it is known as multipurpose
+        because it can be used with web, enterprise, 3D CAD etc.\n\n
+        We don\'t need to use data types to declare variable because it is dynamically typed so we can write
+        a=10 to assign an integer value in an integer variable.\n\n
+        Python makes the development and debugging fast because there is no compilation step included
+        in python development and edit-test-debug cycle is very fast.
+    </string>
+
+    <string name="pyFeatures" formatted="false">
+        <b>Python Features</b>\n\n
+        Python provides lots of features that are listed below.\n
+
+        <b>1) Easy to Learn and Use</b>\n
+        Python is easy to learn and use. It is developer-friendly and high level programming language.\n\n
+
+        <b>2) Expressive Language</b>\n
+        Python language is more expressive means that it is more understandable and readable.\n\n
+
+        <b>3) Interpreted Language</b>\n
+        Python is an interpreted language i.e. interpreter executes the code line by line at a time.
+        This makes debugging easy and thus suitable for beginners.\n\n
+
+        <b>4) Cross-platform Language</b>\n
+        Python can run equally on different platforms such as Windows, Linux, Unix and Macintosh etc.
+        So, we can say that Python is a portable language.\n\n
+
+        <b>5) Free and Open Source</b>
+        Python language is freely available at official web address.The source-code is also available.
+        Therefore it is open source.\n\n
+
+        <b>6) Object-Oriented Language</b>
+        Python supports object oriented language and concepts of classes and objects come into existence.\n\n
+
+        <b>7) Extensible</b>\n
+        It implies that other languages such as C/C++ can be used to compile the code and thus it can be used
+        further in our python code.\n\n
+
+        <b>8) Large Standard Library</b>\n
+        Python has a large and broad library and provides rich set of module and functions for rapid application development.\n\n
+
+        <b>9) GUI Programming Support</b>\n
+        Graphical user interfaces can be developed using Python.\n\n
+
+        <b>10) Integrated</b>\n
+        It can be easily integrated with languages like C, C++, JAVA etc.\n\n
+
+    </string>
+
+    <string name="pyHistory" formatted="false">
+        <b>Python History</b>\n\n
+        Python laid its foundation in the late 1980s.\n\n
+        The implementation of Python was started in the December 1989 by Guido Van Rossum at CWI in Netherland.\n\n
+        In February 1991, van Rossum published the code (labeled version 0.9.0) to alt.sources.\n\n
+        In 1994, Python 1.0 was released with new features like: lambda, map, filter, and reduce.\n\n
+        Python 2.0 added new features like: list comprehensions, garbage collection system.\n\n
+        On December 3, 2008, Python 3.0 (also called "Py3K") was released.
+        It was designed to rectify fundamental flaw of the language.
+        ABC programming language is said to be the predecessor of Python language
+        which was capable of Exception Handling and interfacing with Amoeba Operating System.\n\n
+        Python is influenced by following programming languages:\n\n
+        ABC language.\n
+        Modula-3\n
+    </string>
+
+    <string name="pyVariable" formatted="false">
+        <b>Python Variables</b>
+        Variable is a name which is used to refer memory location.
+        Variable also known as identifier and used to hold value.\n\n
+
+        In Python, we don\'t need to specify the type of variable because Python is a type infer language
+        and smart enough to get variable type.\n\n
+        Variable names can be a group of both letters and digits, but they have to begin with a letter or an underscore.\n\n
+        It is recommended to use lowercase letters for variable name. Rahul and rahul both are two different variables.\n\n\n
+
+        <b>Identifier Naming</b>
+        Variables are the example of identifiers. An Identifier is used to identify the literals used in the program.
+        The rules to name an identifier are given below.\n\n
+
+        The first character of the variable must be an alphabet or underscore ( _ ).\n\n
+        All the characters except the first character may be an alphabet of lower-case(a-z), upper-case (A-Z),
+        underscore or digit (0-9).\n\n
+        Identifier name must not contain any white-space, or special character (!, @, #, %, ^, *).\n\n
+        Identifier name must not be similar to any keyword defined in the language.\n\n
+        Identifier names are case sensitive for example my name, and MyName is not the same.\n\n
+        Examples of valid identifiers : a123, _n, n_9, etc.\n\n
+        Examples of invalid identifiers: 1a, n%4, n 9, etc.\n\n
+
+        <b>Declaring Variable and Assigning Values</b>\n\n
+        Python does not bound us to declare variable before using in the application.
+        It allows us to create variable at required time.
+        We don\'t need to declare explicitly variable in Python. When we assign any value to the
+        variable that variable is declared automatically.
+        The equal (=) operator is used to assign value to a variable.\n\n
+
+        <b>Multiple Assignment</b>\n\n
+        Python allows us to assign a value to multiple variables in a single statement which is
+        also known as multiple assignment.\n\n
+        We can apply multiple assignments in two ways either by assigning a single value to multiple
+        variables or assigning multiple values to multiple variables. Lets see given examples.\n\n
+        x=y=z=50\n
+        print iple\n
+        print y\n
+        print z\n\n
+    </string>
+
+    <string name="pyDataTypes" formatted="false">
+
+        <b>Python Data Types</b>
+        Variables can hold values of different data types. Python is a dynamically typed language
+        hence we need not define the type of the variable while declaring it. The interpreter implicitly
+        binds the value with its type.\n\n
+        Python enables us to check the type of the variable used in the program. Python provides us the type()
+        function which returns the type of the variable passed.\n\n
+
+        <b>Standard data types</b>
+        A variable can hold different types of values. For example, a person?s name must be stored as a
+        string whereas its id must be stored as an integer.\n\n
+
+        Python provides various standard data types that define the storage method on each of them.
+        The data types defined in Python are given below.\n\n
+
+        Numbers\n
+        String\n
+        List\n
+        Tuple\n
+        Dictionary\n
+        In this section of the tutorial, we will give a brief introduction of the above data types.
+        We will discuss each one of them in detail later in this tutorial.\n\n
+
+        <b>String</b>\n\n
+        The string can be defined as the sequence of characters represented in the quotation marks.
+        In python, we can use single, double, or triple quotes to define a string.\n\n
+
+        String handling in python is a straightforward task since there are various inbuilt functions and operators provided.\n\n
+
+        The following example illustrates the string handling in python.\n\n
+
+        str1 = \'hello javatpoint\' #string str1 \n
+        str2 = \' how are you\' #string str2  \n
+        print (str1[0:2]) #printing first two character using slice operator  \n\n
+
+        <b>Numbers</b>\n\n
+        Number stores numeric values. Python creates Number objects when a
+        number is assigned to a variable. For example;\n\n
+
+        a = 3 , b = 5  #a and b are number objects \n\n
+    </string>
+
+    <string name="pyKeywords" formatted="false">
+
+        <b>Python Keywords</b>\n\n
+        Python Keywords are special reserved words which convey a special meaning to the
+        compiler/interpreter. Each keyword have a special meaning and a specific operation.
+        These keywords can\'t be used as variable. Following is the List of Python Keywords.\n\n
+
+        True \n False\n None \n	and	\n as \n
+        asset \n def\n class \n	continue \n	break \n
+        else \n finally \n	elif \n	del \n	except \n
+        global \n	for \n	if	\n from \n	import\n
+        raise\n	try	\n or\n return \n 	pass\n
+        nonlocal\n in	\n not \n 	is \n	lambda\n
+    </string>
+
+    <string name="pyLiterals" formatted="false">
+        <b>Python Literals</b>\n\n
+        Literals can be defined as a data that is given in a variable or constant.\n
+        Python support the following literals:\n\n
+
+        I. String literals:\n
+        String literals can be formed by enclosing a text in the quotes. We can use both
+        single as well as double quotes for a String.\n\n
+
+        Eg:\n
+
+        \t\t\t"Aman" , \'12345\'\n
+
+        \t\t\tTypes of Strings:\n\n
+
+        There are two types of Strings supported in Python:\n
+
+        a).Single line String- Strings that are terminated within a single line are known as Single line Strings.\n\n
+
+        Eg:\n
+
+        >>> text1=\'hello\'\n
+    </string>
+
+    <string name="pyOperators" formatted="false">
+
+        <b>Python Operators</b>\n\n
+        The operator can be defined as a symbol which is responsible for a particular
+        operation between two operands. Operators are the pillars of a program on which the
+        logic is built in a particular programming language. Python provides a variety of operators described as follows.\n\n
+
+        Arithmetic operators\n
+        Comparison operators\n
+        Assignment Operators\n
+        Logical Operators\n
+        Bitwise Operators\n
+        Membership Operators\n
+        Identity Operators\n\n
+
+        <b>Arithmetic operators</b>
+        Arithmetic operators are used to perform arithmetic operations between two operands.
+        It includes +(addition), - (subtraction), *(multiplication), /(divide), %(reminder), //(floor division),
+        and exponent (**).\n\n
+
+        <b>+ (Addition)</b>\n	It is used to add two operands. For example, if a = 20, b = 10 => a+b = 30\n\n
+        <b>- (Subtraction)</b>\n	It is used to subtract the second operand from the first operand.
+        If the first operand is less than the second operand, the value result negative.
+        For example, if a = 20, b = 10 => a ? b = 10\n\n
+        <b>/ (divide)</b>	It returns the quotient after dividing the first operand by the second operand.
+        For example, if a = 20, b = 10 => a/b = 2\n\n
+        <b>* (Multiplication)</b>	It is used to multiply one operand with the other. For example,
+        if a = 20, b = 10 => a * b = 200\n\n
+
+        <b>Comparison operator</b>\n\n
+        Comparison operators are used to comparing the value of the two operands and returns boolean true or false accordingly\n\n
+
+    </string>
+
+    <string name="pyComments" formatted="false">
+        <b>Python Comments</b>\n\n
+        Comments in Python can be used to explain any program code. It can also be used to hide the code as well.\n
+        Comments are the most helpful stuff of any program. It enables us to understand the way, a program works. In python, any statement written along with # symbol is known as a comment. The interpreter does not interpret the comment.
+        Comment is not a part of the program, but it enhances the interactivity of the program and makes the program readable.\n\n
+        Python supports two types of comments:\n\n
+
+        <b>1) Single Line Comment:</b>\n\n
+
+        In case user wants to specify a single line comment, then comment must start with ?#?\n\n
+
+        Eg:\n
+        # This is single line comment. \n
+        print "Hello Python\n\n
+
+        <b>2) Multi Line Comment:</b>\n\n
+
+        Multi lined comment can be given inside triple quotes.\n
+
+        eg:\n
+
+        \'\'\'\'\' This\n
+            \t\t\tIs\n
+            Multipline comment\'\'\'\n\n
+    </string>
+
+    <string name="pyIfelse" formatted="false">
+        <b>Python If-else statements</b>\n\n
+        Decision making is the most important aspect of almost all the programming languages.
+        As the name implies, decision making allows us to run a particular block of code for a
+        particular decision. Here, the decisions are made on the validity of the particular conditions.
+        Condition checking is the backbone of decision making.\n\n
+
+        In python, decision making is performed by the following statements.\n\n
+
+        <b>If Statement</b>\n\n
+        The if statement is used to test a specific condition. If the condition is true,
+        a block of code (if-block) will be executed.\n\n
+
+        <b>If - else Statement</b>\n\n
+        The if-else statement is similar to if statement except the fact that,
+        it also provides the block of the code for the false case of the condition to be
+        checked. If the condition provided in the if statement is false, then the else statement will be executed.\n\n
+
+        <b>Nested if Statement</b>\n\n
+        Nested if statements enable us to use if ? else statement inside an outer if statement.\n\n
+    </string>
+
+    <string name="pyLoops" formatted="false">
+        <b>Python Loops</b>\n\n
+        The flow of the programs written in any programming language is sequential by default.
+        Sometimes we may need to alter the flow of the program. The execution of a specific code may
+        need to be repeated several numbers of times.\n\n
+        For this purpose, The programming languages provide various types of loops which are capable
+        of repeating some specific code several numbers of times. Consider the following diagram to
+        understand the working of a loop statement.\n\n
+
+        <b>Why we use loops in python?</b>\n\n
+        The looping simplifies the complex problems into the easy ones. It enables us to alter the
+        flow of the program so that instead of writing the same code again and again, we can
+        repeat the same code for a finite number of times. For example, if we need to print
+        the first 10 natural numbers then, instead of using the print statement 10 times,
+        we can print inside a loop which runs up to 10 iterations.\n\n
+
+        <b>Python for loop</b>\n\n
+        The for loop in Python is used to iterate the statements or a part of the program several times.
+        It is frequently used to traverse the data structures like list, tuple, or dictionary.\n\n
+
+        The syntax of for loop in python is given below.\n
+
+        for iterating_var in sequence:\n
+            \t\tstatement(s)\n\n
+
+
+        <b>Python while loop</b>\n\n
+        The while loop is also known as a pre-tested loop. In general, a while loop allows a part of the
+        code to be executed as long as the given condition is true.\n\n
+
+        It can be viewed as a repeating if statement. The while loop is mostly used in the case where
+        the number of iterations is not known in advance.\n\n
+
+        The syntax is given below.\n
+        while expression: \n
+            \t\tstatements  \n\n
+
+    </string>
+
+
+    <string name="pyBreak" formatted="false">
+
+        <b>Python break statement</b>\n\n
+        The break is a keyword in python which is used to bring the program control out of the loop.
+        The break statement breaks the loops one by one, i.e., in the case of nested loops, it breaks the
+        inner loop first and then proceeds to outer loops. In other words, we can say that break is used to
+        abort the current execution of the program and the control goes to the next line after the loop.\n\n
+        The break is commonly used in the cases where we need to break the loop for a given condition.\n\n
+
+        The syntax of the break is given below.\n\n
+
+        #loop statements\n
+        break;\n\n
+
+        <b>Python continue Statement</b>\n\n
+        The continue statement in python is used to bring the program control to the beginning of the loop.
+        The continue statement skips the remaining lines of code inside the loop and start with the next iteration.
+        It is mainly used for a particular condition inside the loop so that we can skip some specific code for a
+        particular condition.\n\n
+
+        The syntax of Python continue statement is given below.\n\n
+
+        #loop statements\n
+        continue;\n
+        #the code to be skipped\n\n
+    </string>
+
+
+    <string name="pyPass" formatted="false">
+
+        <b>Python Pass</b>\n\n
+        In Python, pass keyword is used to execute nothing; it means, when we don\'t want to execute code,
+        the pass can be used to execute empty. It is same as the name refers to.
+        It just makes the control to pass by without executing any code. If we want to bypass any
+        code pass statement can be used.\n\n
+
+        Python Pass Syntax\n
+
+        <b>pass</b>\n\n
+        Python Pass Example\n\n
+
+        for i in [1,2,3,4,5]:\n
+            \t\tif i==3:\n
+                \t\t\tpass\n
+                \t\t\tprint "Pass when value is",i\n\n
+            print i,\n\n
+
+        <b>Output:</b>\n\n
+
+        >>>\n
+        1 2 Pass when value is 3\n
+        3 4 5\n
+        >>>\n\n
+    </string>
+
+    <string name="pyList" formatted="false">
+        <b>Python List</b>\n\n
+        List in python is implemented to store the sequence of various type of data. However, python contains six data
+        types that are capable to store the sequences but the most common and reliable type is list.\n\n
+
+        A list can be defined as a collection of values or items of different types. The items in the list are
+        separated with the comma (,) and enclosed with the square brackets [].\n\n
+
+        A list can be defined as follows.\n
+
+        L1 = ["John", 102, "USA"] \n
+        L2 = [1, 2, 3, 4, 5, 6] \n
+        L3 = [1, "Ryan"]\n\n
+
+    </string>
+
+    <string name="pyTuples" formatted="false">
+
+        <b>Python Tuple</b>\n\n
+        Python Tuple is used to store the sequence of immutable python objects. Tuple is similar to lists since the
+        value of the items stored in the list can be changed whereas the tuple is immutable and the value of the
+        items stored in the tuple can not be changed.\n\n
+        A tuple can be written as the collection of comma-separated values enclosed with the small brackets.
+        A tuple can be defined as follows.\n\n
+
+        T1 = (101, "Ayush", 22) \n
+        T2 = ("Apple", "Banana", "Orange") \n\n
+    </string>
+
+    <string name="pySets" formatted="false">
+
+        <b>Python Set</b>\n\n
+        The set in python can be defined as the unordered collection of various items enclosed within the curly braces.
+        The elements of the set can not be duplicate. The elements of the python set must be immutable.\n\n
+
+        Unlike other collections in python, there is no index attached to the elements of the set, i.e., we cannot
+        directly access any element of the set by the index. However, we can print them all together or we can get
+        the list of elements by looping through the set.\n\n
+
+        <b>Creating a set</b>\n\n
+        The set can be created by enclosing the comma separated items with the curly braces. Python also provides
+        the set method which can be used to create the set by the passed sequence.\n\n
+
+        Days = {"Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"} \n\n
+        print(Days)  \n
+        print(type(Days))  \n
+        print("looping through the set elements")  \n
+        for i in Days:  \n
+            print(i)  \n\n\n
+    </string>
+
+    <string name="pyDictionary" formatted="false">
+
+        <b>Python Dictionary</b>\n\n
+        Dictionary is used to implement the key-value pair in python. The dictionary is the data type in python
+        which can simulate the real-life data arrangement where some specific value exists for some particular key.\n\n
+
+        In other words, we can say that a dictionary is the collection of key-value pairs where the value can be
+        any python object whereas the keys are the immutable python object, i.e., Numbers, string or tuple.\n\n
+
+        Dictionary simulates Java hash-map in python.\n\n
+
+        <b>Creating the dictionary</b>\n\n
+        The dictionary can be created by using multiple key-value pairs enclosed with the small brackets ()
+        and separated by the colon (:). The collections of the key-value pairs are enclosed within the curly braces {}.\n\n
+
+        The syntax to define the dictionary is given below.\n\n
+
+        <b>Dict = {"Name": "Ayush","Age": 22}</b>\n\n
+
+    </string>
+
+    <string name="pyFunction" formatted="false">
+
+        <b>Python Functions</b>
+        Functions are the most important aspect of an application. A function can be defined as the
+        organized block of reusable code which can be called whenever required.\n\n
+
+        Python allows us to divide a large program into the basic building blocks known as function. The function
+        contains the set of programming statements enclosed by {}. A function can be called multiple times to provide
+        reuseability and modularity to the python program.\n\n
+
+        In other words, we can say that the collection of functions creates a program. The function is also known
+        as procedure or subroutine in other programming languages.\n\n
+
+        Python provide us various inbuilt functions like range() or print(). Although, the user can create its
+        functions which can be called user-defined functions.\n\n
+
+        <b>Creating a function</b>
+        In python, we can use def keyword to define the function. The syntax to define a function in python is given below.\n\n
+
+        def my_function(): \n
+            \t\tfunction-suite   \n
+            return &lt;expression&gt; \n\n
+    </string>
+
+
+    <string name="pyModule" formatted="false">
+
+        <b>Python Modules</b>\n\n
+        A python module can be defined as a python program file which contains a python code
+        including python functions, class, or variables. In other words, we can say that our
+        python code file saved with the extension (.py) is treated as the module. We may have a
+        runnable code inside the python module.\n\n
+
+        Modules in Python provides us the flexibility to organize the code in a logical way.\n\n
+        To use the functionality of one module into another, we must have to import the specific module.\n\n
+
+        <b>Example</b>\n\n
+        In this example, we will create a module named as file.py which contains a function func that
+        contains a code to print some message on the console.\n\n
+
+        Let\'s create the module named as file.py.\n
+
+        #displayMsg prints a message to the name being passed. \n
+        def displayMsg(name)  \n
+            \t\t\tprint("Hi "+name); \n\n
+    </string>
+
+    <string name="pyException" formatted="false">
+
+        <b>Python Exceptions</b>\n\n
+        An exception can be defined as an abnormal condition in a program resulting in the disruption in the
+        flow of the program.\n\n
+
+        Whenever an exception occurs, the program halts the execution, and thus the further code is not executed.
+        Therefore, an exception is the error which python script is unable to tackle with.\n\n
+
+        Python provides us with the way to handle the Exception so that the other part of the code can be
+        executed without any disruption. However, if we do not handle the exception, the interpreter doesn\'t
+        execute all the code that exists after the that.\n\n
+
+        <b>Common Exceptions</b>\n\n
+        A list of common exceptions that can be thrown from a normal python program is given below.\n\n
+
+        <b>ZeroDivisionError: </b>Occurs when a number is divided by zero.\n\n
+        <b>NameError:</b> It occurs when a name is not found. It may be local or global.\n\n
+        <b>IndentationError: </b> If incorrect indentation is given.\n\n
+        <b>IOError: </b> It occurs when Input Output operation fails.\n\n
+        <b>EOFError:</b> It occurs when the end of the file is reached, and yet operations are being performed.\n\n
+    </string>
+
+    <string name="pyOOPconcepts" formatted="false">
+
+        <b>Python OOPs Concepts</b>\n\n
+        Like other general purpose languages, python is also an object-oriented language since its
+        beginning. Python is an object-oriented programming language. It allows us to develop applications
+        using an Object Oriented approach. In Python, we can easily create and use classes and objects.\n\n
+
+        Major principles of object-oriented programming system are given below.\n\n
+
+        <b>Object</b>
+        <b>Class</b>
+        <b>Method</b>
+        <b>Inheritance</b>
+        <b>Polymorphism</b>
+        <b>Data Abstraction</b>
+        <b>Encapsulation</b>\n\n
+
+        <b>Object</b>\n\n
+        The object is an entity that has state and behavior. It may be any real-world object
+        like the mouse, keyboard, chair, table, pen, etc.\n\n
+        Everything in Python is an object, and almost everything has attributes and methods.
+        All functions have a built-in attribute __doc__, which returns the doc string defined in the function source code.\n\n
+
+        <b>Class</b>\n\n
+        The class can be defined as a collection of objects. It is a logical entity that has some specific
+        attributes and methods. For example: if you have an employee class then it should contain an attribute
+        and method, i.e. an email id, name, age, salary, etc.\n\n
+
+        <b>Method</b>\n\n
+        The method is a function that is associated with an object. In Python, a method is not unique to class
+        instances. Any object type can have methods.\n\n
+
+        <b>Inheritance</b>\n\n
+        Inheritance is the most important aspect of object-oriented programming which simulates the real
+        world concept of inheritance. It specifies that the child object acquires all the properties and
+        behaviors of the parent object.\n\n
+
+        <b>Polymorphism</b>\n\n
+        Polymorphism contains two words "poly" and "morphs". Poly means many and Morphs means form, shape.
+        By polymorphism, we understand that one task can be performed in different ways. For example You have a
+        class animal, and all animals speak. But they speak differently.\n\n
+
+        <b>Encapsulation</b>\n\n
+        Encapsulation is also an important aspect of object-oriented programming. It is used to restrict
+        access to methods and variables. In encapsulation, code and data are wrapped together within a
+        single unit from being modified by accident.\n\n
+
+        <b>Data Abstraction</b>\n\n
+        Data abstraction and encapsulation both are often used as synonyms. Both are nearly synonym
+        because data abstraction is achieved through encapsulation.\n\n
+    </string>
+
+    <string name="pyObjectandClasses" formatted="false">
+
+        <b>Python Class and Objects</b>
+        As we have already discussed, a class is a virtual entity and can be seen as a blueprint of an object.
+        The class came into existence when it instantiated. Let\'s understand it by an example.\n\n
+
+        Suppose a class is a prototype of a building. A building contains all the details about the floor, doors,
+        windows, etc. we can make as many buildings as we want, based on these details. Hence, the building can be
+        seen as a class, and we can create as many objects of this class.\n\n
+
+        On the other hand, the object is the instance of a class. The process of creating an object can be
+        called as instantiation.\n\n
+
+        In this section of the tutorial, we will discuss creating classes and objects in python.
+        We will also talk about how an attribute is accessed by using the class object.\n\n
+
+        <b>Creating classes in python</b>\n\n
+        In python, a class can be created by using the keyword class followed by the class name.
+        The syntax to create a class is given below.\n\n
+
+        <b>Syntax</b>\n
+        class ClassName:\n
+        #statement_suite\n\n
+    </string>
+
+    <string name="pyConstructor" formatted="false">
+
+        <b>Python Constructor</b>\n\n
+        A constructor is a special type of method (function) which is used to initialize the instance members of the class.\n\n
+
+        Constructors can be of two types.\n\n
+        <b>Parameterized Constructor</b>\n
+        <b>Non-parameterized Constructor</b>\n\n
+        Constructor definition is executed when we create the object of this class.
+        Constructors also verify that there are enough resources for the object to perform any start-up task.\n\n
+    </string>
+
+    <string name="pyInheritance" formatted="false">
+
+        <b>Python Inheritance</b>
+        Inheritance is an important aspect of the object-oriented paradigm. Inheritance provides code reusability
+        to the program because we can use an existing class to create a new class instead of creating it from scratch.\n\n
+
+        In inheritance, the child class acquires the properties and can access all the data members and functions
+        defined in the parent class. A child class can also provide its specific implementation to the functions of
+        the parent class. In this section of the tutorial, we will discuss inheritance in detail.\n\n
+
+        In python, a derived class can inherit base class by just mentioning the base in the bracket after
+        the derived class name. Consider the following syntax to inherit a base class into the derived class.\n\n
+
+        <b>Syntax</b>\n\n
+        class derived-class(base class):\n
+            \t\t\t&lt;class-suite&gt; \n
+        A class can inherit multiple classes by mentioning all of them inside the bracket. Consider the following syntax.\n\n
+
+        <b>Syntax</b>\n\n
+        class derive-class(&lt;base class 1&gt;, &lt;base class 2&gt;,----- &lt;base class n&gt;): \n
+    &lt;class - suite&gt;\n\n
+
+        <b>Python Multi-Level inheritance</b>\n\n
+        Multi-Level inheritance is possible in python like other object-oriented languages. Multi-level
+        inheritance is archived when a derived class inherits another derived class. There is no limit on
+        the number of levels up to which, the multi-level inheritance is archived in python.\n\n
+
+    </string>
+    
+    
+    <string name="displayHello" formatted="false">
+
+          public class HelloWorld\n
+            \t\t{\n
+               \t\t\tpublic static void main(String args[])\n\n
+               \t\t{//for display Hello World \n
+                  \t\t\tSystem.out.println("Hello World");\n\n
+               \t\t}\n
+            }\n\n
+
+        \t\tOutput:\n\n
+        \t\t<b>Hello World</b>\n\n
+
+    </string>
+
+
+    <string name="printAlphabet" formatted="false">
+
+        class Alphabets\n
+        {\n
+           \tpublic static void main(String args[])\n
+           \t{\n
+              \t\tchar ch;\n\n
+
+              \t\tfor (ch = \'a\'; ch &lt;= \'z\'; ch++)\n
+                 System.out.println(ch);\n\n
+           \t}\n
+        }\n\n
+
+        \t\tOutput:\n\n
+        \t\t<b>a</b>\n
+        \t\t<b>b</b>\n
+        \t\t<b>c</b>\n
+        \t\t<b>.</b>\n
+        \t\t<b>.</b>\n
+        \t\t<b>.</b>\n
+        \t\t<b>z</b>\n\n
+
+    </string>
+
+    <string name="addTwoNumber" formatted="false">
+            public class Add\n
+            \t\t{\n
+               \t\t\tpublic static void main(String args[])\n
+               \t\t{\n\n
+                    \t\t\tint no1= 45;\n
+                    \t\t\tint no2=13;\n
+                    \t\t\tint result= no1+no2;\n\n
+                  \t\t\tSystem.out.println(result);\n
+               \t\t}\n
+            }\n\n
+
+        \t\tOutput:\n\n
+        \t\t<b>58</b>\n\n
+
+    </string>
+
+
+    <string name="addTwoUsingInput" formatted="false">
+
+        import java.util.Scanner;\n\n
+
+        public class InputAdd\n
+            \t\t{\n
+               \t\t\tpublic static void main(String args[])\n
+               \t\t{ Scanner input=new Scanner(System.in);\n\n
+                    \t\t\tint no1= input.nextInt();\n
+                    \t\t\tint no2= input.nextInt();\n
+                    \t\t\tint result= no1+no2;\n\n
+                  \t\t\tSystem.out.println(result);\n
+               \t\t}\n
+            }\n\n
+
+        \t\tOutput:\n\n
+        \t\t 20 Enter\n
+        \t\t 10 Enter\n\n\n
+        \t\t<b>30</b>\n\n
+
+    </string>
+
+    <string name="forLoop" formatted="false">
+
+        class ForLoop {\n
+          \tpublic static void main(String[] args) {\n\n
+            \t\tint c;\n\n
+
+            \t\tfor (c = 1; c &lt;= 10; c++) {\n
+              \t\t\tSystem.out.println(c);\n\n
+            \t\t}\n
+          \t}\n
+        }\n\n
+
+        \t\tOutput:\n\n
+        \t\t 1\n
+        \t\t 2\n
+        \t\t 3\n
+        \t\t 4\n
+        \t\t 5\n
+        \t\t 6\n
+        \t\t 7\n
+        \t\t 8\n
+        \t\t 9\n
+        \t\t 10\n\n
+
+    </string>
+
+    <string name="swapping" formatted="false">
+        import java.util.Scanner;\n\n
+
+        public class SwapNumbers\n
+        {\n
+           \tpublic static void main(String args[])\n
+           \t{\n
+              \t\tint x, y, temp;\n
+              \t\tSystem.out.println("Enter x and y");\n
+              \t\tScanner in = new Scanner(System.in);\n\n
+
+              \t\tx = in.nextInt();\n
+              \t\ty = in.nextInt();\n\n
+
+              \t\tSystem.out.println("Before Swapping\nx = "+x+"\ny = "+y);\n\n
+
+              \t\ttemp = x;\n
+              \t\tx = y;\n
+              \t\ty = temp;\n\n
+
+              \t\tSystem.out.println("After Swapping\nx = "+x+"\ny = "+y);\n\n
+           \t}\n
+        }\n\n
+
+    </string>
+
+
+    <string name="if_else" formatted="false">
+
+        import java.util.Scanner;\n\n
+        class IfElse {\n
+          \tpublic static void main(String[] args) {\n
+            \t\tint marksObtained, passingMarks;\n\n
+
+            \t\tpassingMarks = 40;\n\n
+
+            \t\tScanner input = new Scanner(System.in);\n\n
+
+            \t\tSystem.out.println("Input marks scored by you");\n\n
+
+            \t\tmarksObtained = input.nextInt();\n\n
+
+            \t\tif (marksObtained &gt;= passingMarks) {\n
+              \t\t\tSystem.out.println("You passed the exam.");\n
+            \t\t}\n
+            \t\telse {\n
+              \t\t\tSystem.out.println("Unfortunately, you failed to pass the exam.");\n
+            \t\t}\n
+          \t}\n
+        }\n\n
+
+
+        \t\tOutput:\n\n
+        \t\t 56 Enter\n\n
+
+        \t\t<b>You passed the exam</b>\n\n
+
+    </string>
+
+
+    <string name="evenOdd" formatted="false">
+
+        import java.util.Scanner;\n\n
+
+        class OddOrEven\n
+        {\n
+           \tpublic static void main(String args[])\n
+           \t{\n\n
+              \t\t\tint x;\n
+              \t\tSystem.out.println("Enter number check odd or even: ");\n
+              \t\tScanner in = new Scanner(System.in);\n
+              \t\tx = in.nextInt();\n\n
+
+              \t\tif (x % 2 == 0)\n
+                 \t\t\tSystem.out.println("The number is even.");\n
+              \t\telse\n
+                 \t\t\tSystem.out.println("The number is odd.");\n
+           \t}\n
+        }\n\n
+
+
+        \t\tOutput:\n\n
+        \t\tEnter number check odd or even: 5 <b>Enter</b>\n\n
+
+        \t\t<b>The number is odd</b>\n\n
+
+    </string>
+
+
+    <string name="multipicationTable" formatted="false">
+
+        import java.util.Scanner;\n\n
+
+        class MultiplicationTable\n
+        {\n
+          public static void main(String args[])\n
+          {\n
+            \t\tint n, c;\n\n
+            \t\tSystem.out.println("Enter an integer to print it\'s multiplication table");\n\n
+            \t\tScanner in = new Scanner(System.in);\n\n
+            \t\tn = in.nextInt();\n\n
+            \t\tSystem.out.println("Multiplication table of " + n);\n\n
+
+            \t\tfor (c = 1; c &lt;= 10; c++)\n
+              \t\t\tSystem.out.println(n + "*" + c + " = " + (n*c));\n\n
+          \t}\n
+        }\n\n
+
+        \t\tOutput:\n\n
+        \t\tEnter an integer 5 <b>Enter</b>\n\n
+
+        \t\t<b>5*1=5</b>\n
+        \t\t<b>5*2=10</b>\n
+        \t\t<b>5*3=15</b>\n
+        \t\t<b>5*4=20</b>\n
+        \t\t<b>5*5=25</b>\n
+        \t\t<b>5*6=30</b>\n
+        \t\t<b>5*7=35</b>\n
+        \t\t<b>5*8=40</b>\n
+        \t\t<b>5*9=45</b>\n
+        \t\t<b>5*10=50</b>\n\n
+
+    </string>
+
+    <string name="fahrenheit" formatted="false">
+
+        import java.util.*;\n\n
+
+        class FahrenheitToCelsius {\n
+          \tpublic static void main(String[] args) {\n\n
+            \t\tfloat temperature;\n
+            \t\tScanner in = new Scanner(System.in);\n\n
+
+            \t\tSystem.out.println("Enter temperature in Fahrenheit");\n
+            \t\ttemperature = in.nextInt();\n\n
+
+            \t\ttemperature = ((temperature - 32)*5)/9;\n\n
+
+            \t\tSystem.out.println("temperature in Celsius = " + temperature);\n\n
+          \t}\n
+        }\n\n
+
+        \t\tOutput:\n\n
+        \t\tEnter temperature in Fahrenheit 100 <b>Enter</b>\n\n
+
+        \t\t<b>Temperature in Celsius = 37.77778 </b>\n\n
+    </string>
+
+
+    <string name="largestThree" formatted="false">
+
+        import java.util.Scanner;\n\n
+
+        class Largest\n
+        {\n
+          \t\tpublic static void main(String args[])\n
+          {\n\n
+            \t\tint x, y, z;\n
+            \t\tSystem.out.println("Enter three integers");\n
+            \t\tScanner in = new Scanner(System.in);\n\n
+
+            \t\tx = in.nextInt();\n
+            \t\ty = in.nextInt();\n
+            \t\tz = in.nextInt();\n\n
+
+            \t\tif (x > y &amp;&amp; x > z)\n
+              \t\t\tSystem.out.println("First number is largest."+x);\n\n
+            \t\telse if (y > x &amp;&amp; y > z)\n
+              \t\t\tSystem.out.println("Second number is largest."+y);\n\n
+            \t\telse if (z > x &amp;&amp; z > y)\n
+              System.out.println("Third number is largest."+z);\n\n
+            \t\telse\n
+              System.out.println("The numbers are not distinct.");\n\n
+          \t}\n
+        }\n\n
+
+
+        \t\tOutput:\n\n
+        \t\t5\t 8 \t9 <b>Enter</b>\n\n
+
+        \t\t<b>Third number is largest 9 </b>\n\n
+
+    </string>
+
+
+    <string name="factorialPro" formatted="false">
+
+        import java.util.Scanner;\n\n
+
+        class Factorial\n
+        {\n
+           public static void main(String args[])\n
+           {\n\n
+              int n, c, fact = 1;\n\n
+
+              \tSystem.out.println("Enter an integer to calculate factorial");\n
+              \tScanner in = new Scanner(System.in);\n\n
+
+              \tn = in.nextInt();\n\n
+
+              \tif (n &lt; 0)\n
+                 \t\t\tSystem.out.println("Number should be non-negative.");\n
+              \telse\n
+              {\n
+                 \t\tfor (c = 1; c &lt;= n; c++)\n
+                    \t\t\tfact = fact*c;\n\n
+
+                 \t\tSystem.out.println("Factorial of "+n+" is = "+fact);\n\n
+              }\n
+           }\n
+        }\n\n
+
+
+        \t\tOutput:\n\n
+        \t\t 6 <b>Enter</b>\n\n
+        \t\t<b>The Factorial of 6 is = 720</b>\n\n
+    </string>
+
+    <string name="reverseString">
+
+        import java.util.*;\n\n
+        class ReverseString\n
+        {\n
+           \tpublic static void main(String args[])\n
+           {\n\n
+              \t\tString original, reverse = "";\n
+              \t\tScanner in = new Scanner(System.in);\n\n
+
+              \t\tSystem.out.println("Enter a string to reverse");\n
+              \t\toriginal = in.nextLine();\n\n
+
+              \t\tint length = original.length();\n\n
+
+              \t\tfor (int i = length - 1 ; i >= 0 ; i--)\n
+                 \t\t\treverse = reverse + original.charAt(i);\n\n
+
+              \tSystem.out.println("Reverse of the string: " + reverse);\n\n
+           \t}\n
+        }\n
+
+        \t\tOutput:\n\n
+        \t\t Shimul <b>Enter</b>\n\n
+        \t\t<b>lumihS</b>\n\n\n
+
+    </string>
+
+
+
+    <string name="pyaddTwo" formatted="false">
+        \t\tnum1 = 15\n
+        \t\tnum2 = 12\n\n
+
+        \t\t# Adding two\n
+        \t\tsum = num1 + num2\n\n
+
+        \t\t# printing values\n
+        \tprint("Sum of {0} and {1} is {2}" .format(num1, num2, sum))\n\n\n
+
+        \t\t<b>Output</b>\n
+        \t\t27
+    </string>
+
+    <string name="pyaddTowuserIn" formatted="false">
+
+        number1 = input("First number: ")\n
+        number2 = input("\nSecond number: ")\n\n
+
+        # Adding two numbers\n
+        # User might also enter float numbers\n
+        sum = float(number1) + float(number2)\n\n
+
+        # Display the sum\n
+        # will print value in float\n
+        print("The sum of {0} and {1} is {2}" .format(number1, number2, sum))\n\n\n
+
+        \t\t<b>Output</b>\n\n
+        \t\tThe sum of 13.5 and 1.54 is 15.04
+
+    </string>
+
+    <string name="pyareaofTrian" formatted="false">
+
+        \t# Three sides of the triangle is a, b and c:\n
+        \ta = float(input(\'Enter first side: \'))\n
+        \tb = float(input(\'Enter second side: \'))\n
+        \tc = float(input(\'Enter third side: \')) \n\n
+
+        \t# calculate the semi-perimeter\n
+        \ts = (a + b + c) / 2\n\n
+
+        \t# calculate the area \n
+        \tarea = (s*(s-a)*(s-b)*(s-c)) ** 0.5  \n
+        \tprint(\'The area of the triangle is %0.2f\' %area)\n\n
+
+    </string>
+
+    <string name="pyreverse" formatted="false">
+
+        \tn=int(input("Enter number: "))\n\n
+        \trev=0\n\n
+        \twhile(n>0):\n
+            \t\tdig=n%10\n
+            \t\trev=rev*10+dig\n
+            \t\tn=n//10\n
+        \tprint("Reverse of the number:",rev)\n\n
+
+        \t\t<b>Output</b>\n\n
+        \t\t2728
+
+    </string>
+
+
+    <string name="pypositiv">
+        \tn=int(input("Enter number: "))\n
+        \tif(n>0):\n
+            \t\t\tprint("Number is positive")\n
+        \telse:
+            \t\tprint("Number is negative")\n\n
+    </string>
+
+    <string name="pyswapping" formatted="false">
+
+        x = 5\n
+        y = 10\n\n
+
+        # create a temporary variable and swap the values\n
+        temp = x\n
+        x = y\n
+        y = temp\n\n
+
+        print(\'The value of x after swapping: {}\'.format(x))\n
+        print(\'The value of y after swapping: {}\'.format(y))\n\n
+
+        \t\t<b>Output</b>\n\n
+        \t\tThe value of x after swapping: 10\n
+        \t\tThe value of y after swapping: 5\n\n
+
+    </string>
+
+    <string name="pyeven" formatted="false">
+        num = int(input("Enter a number: "))\n
+        if (num % 2) == 0:\n
+           \t\tprint("{0} is Even".format(num))\n
+        else:\n
+           print("{0} is Odd".format(num))\n\n
+
+
+        \t\t<b>Output</b>\n\n
+        \t\tEnter a number: 43\n
+        \t\t43 is Odd\n\n
+
+    </string>
+
+
+    <string name="pymultiplication" formatted="false">
+
+        # To take input from the user\n
+        num = 12\n\n
+
+        # num = int(input("Display multiplication table of? "))\n\n
+
+        # use for loop to iterate 10 times\n
+        for i in range(1, 11):\n
+           \t\tprint(num,\'x\',i,\'=\',num*i)\n\n
+    </string>
+
+
+    <string name="pylargestinlist" formatted="false">
+
+        # Python program to find largest\n
+        # number in a list\n\n
+
+        # list of numbers \n
+        list1 = [10, 20, 4, 45, 99]\n\n
+
+        # sorting the list \n
+        list1.sort() \n\n
+
+        # printing the last element \n
+        print("Largest element is:", list1[-1])\n\n
+
+        \t\t<b>Output</b>\n\n
+        \t\tLargest element is: 99\n\n
+
+    </string>
+
+    <string name="pycelsius" formatted="false">
+
+            Celsius = int(input("Enter a temperature in Celsius: "))\n\n
+            Fahrenheit = 9.0/5.0 * Celsius + 32\n\n
+            print (Fahrenheit)\n\n
+
+
+    </string>
+
+    <string name="pyfactorial" formatted="false">
+
+        num = 7\n
+        factorial = 1\n\n
+
+        # check if the number is negative, positive or zero\n\n
+        if num &lt; 0:\n
+           \t\tprint("Sorry, factorial does not exist for negative numbers")\n\n
+        elif num == 0:\n
+           print("The factorial of 0 is 1")\n
+        else:\n
+           \tfor i in range(1,num + 1):\n
+               \t\tfactorial = factorial*i\n
+           \tprint("The factorial of",num,"is",factorial)\n\n
+
+
+        \t\t<b>Output</b>\n\n
+        \t\tThe factorial of 7 is 5040\n
+    </string>
+
+
+</resources>

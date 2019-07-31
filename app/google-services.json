@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "729734305431",
+    "firebase_url": "https://learncjavapythonprogramming.firebaseio.com",
+    "project_id": "learncjavapythonprogramming",
+    "storage_bucket": "learncjavapythonprogramming.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:729734305431:android:b3b631dfed3bdec1",
+        "android_client_info": {
+          "package_name": "www.shimul.com.learncjavapythonprogramming"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "729734305431-1nine924jqeh7od2s3i0coiq5bscoduq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "www.shimul.com.learncjavapythonprogramming",
+            "certificate_hash": "1537b058c12eac5fd6cb6f59ba4b415bfc00a226"
+          }
+        },
+        {
+          "client_id": "729734305431-h7a12kvrvj452h52e21o13hv4b730dom.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBDMbTn8SMPxBehy0siE2FsUyTOTOtaVgo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "729734305431-h7a12kvrvj452h52e21o13hv4b730dom.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

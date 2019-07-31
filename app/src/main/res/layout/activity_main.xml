@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="#fff"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <at.markushi.ui.CircleButton
+            android:id="@+id/cLanguageBtn"
+            android:scaleType="fitXY"
+            android:src="@drawable/c"
+            android:layout_marginEnd="10dp"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            app:cb_color="#05f1f1f1"
+            app:cb_pressedRingWidth="3dp"
+            />
+
+        <TextView
+            android:textAlignment="center"
+            android:textColor="#000"
+            android:text="C Programming     "
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            />
+
+
+        <at.markushi.ui.CircleButton
+            android:id="@+id/javaLanguageBtn"
+            android:src="@drawable/java"
+            android:scaleType="fitXY"
+            android:layout_marginEnd="10dp"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            app:cb_color="#d9054963"
+            app:cb_pressedRingWidth="1dp"
+            />
+
+
+        <TextView
+            android:textAlignment="center"
+            android:textColor="#000"
+            android:text="Java Programming     "
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            />
+
+        <at.markushi.ui.CircleButton
+            android:id="@+id/pythonLanguageBtn"
+            android:scaleType="fitXY"
+            android:src="@drawable/py"
+            android:layout_marginEnd="10dp"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            app:cb_color="#e7ed4040"
+            app:cb_pressedRingWidth="3dp"
+            />
+
+        <TextView
+            android:textAlignment="center"
+            android:textColor="#000"
+            android:text="Python Programming      "
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            />
+
+    </LinearLayout>
+
+</RelativeLayout>

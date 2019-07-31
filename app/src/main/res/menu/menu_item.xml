@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+        android:id="@+id/logOutId"
+        android:title="Log Out"
+        app:showAsAction="never"
+        />
+
+    <item
+        android:id="@+id/shareId"
+        android:title="Share"
+        app:showAsAction="never"
+        />
+
+
+    <item
+        android:icon="@drawable/ic_profile"
+        android:id="@+id/profileId"
+        android:title="Profile"
+        app:showAsAction="always"
+        />
+
+
+</menu>
